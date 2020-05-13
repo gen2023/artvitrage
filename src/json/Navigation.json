@@ -1,0 +1,49 @@
+[{
+    "id": "1",
+    "nameRu": "Главная",
+    "nameEn": "Home",
+    "link": ""
+    
+  },
+  {
+    "id": "2",
+    "nameRu": "Обо мне",
+    "nameEn": "About",
+    "link": "About"
+    
+  },
+  {
+    "id": "3",
+    "nameRu": "Обучение",
+    "nameEn": "Vitraj",
+    "link": "Vitraj"
+    
+  },
+  {
+    "id": "4",
+    "nameRu": "Галлерея",
+    "nameEn": "Gallery",
+    "link":"Gallery"
+    
+  },
+  {
+    "id": "5",
+    "nameRu": "Видео",
+    "nameEn": "Video",
+    "link":"Video"
+    
+  },
+  {
+    "id": "6",
+    "nameRu": "Видеоблог",
+    "nameEn": "Videoblog",
+    "link": "Videoblog"
+    
+  },
+  {
+    "id": "7",
+    "nameRu": "Контакты",
+    "nameEn": "Contact",
+    "link":"Contact"
+    
+  }]

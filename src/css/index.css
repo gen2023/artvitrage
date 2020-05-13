@@ -1,0 +1,39 @@
+header {
+  position: fixed;
+  z-index: 10000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background: #dee5e7;
+  box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
+}
+.header {
+  height: 50px;
+}
+
+nav {
+  text-align: right;
+  /* margin-top: -25px; */
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 0.5em;
+  font-size: 0.9em;
+}
+
+nav ul li a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  height: 3.4em;
+  line-height: 3.8em;
+  padding: 0 0.5em 0 0.5em;
+  outline: 0;
+  color: #266889;
+  font-size: 0.9em;
+}
