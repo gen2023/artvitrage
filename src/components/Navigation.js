@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, Component } from "react";
 import { Route, Switch } from "react-router-dom";
 import propTypes from "prop-types";
 import NavigationItem from "./NavigationItem";
@@ -11,58 +11,70 @@ import VideoblogPage from "../Pages/Videoblog";
 import ContactPage from "../Pages/Contact";
 import NotFoundPage from "../Pages/NotFound";
 
-function Navigation({ list, editLang, lang }) {
-  return (
-    <Fragment>
-      <header>
-        <div>
-          <img
-            src="../image/language/ru.png"
-            alt="lang_Ru"
-            onClick={editLang}
-          />
-          <img
-            src="../image/language/en.png"
-            alt="lang_En"
-            onClick={editLang}
-          />
-        </div>
-        <nav>
-          <ul>
-            {list.map(({ id, nameRu, nameEn, link }) => (
-              <NavigationItem
-                key={id}
-                name={lang === "nameRu" ? nameRu : nameEn}
-                link={link}
-              />
-            ))}
-          </ul>
-        </nav>
-      </header>
-      <div className="header"></div>
-      <Switch>
-        <Route path="/" exact component={HomePage} />
-        <Route path="/About" component={AboutPage} />
-        <Route path="/Vitraj" component={VitrajPage} />
-        <Route path="/Gallery" component={GalleryPage} />
-        <Route path="/Video" component={VideoPage} />
-        <Route path="/Videoblog" component={VideoblogPage} />
-        <Route path="/Contact" component={ContactPage} />
-        <Route component={NotFoundPage} />
-      </Switch>
-    </Fragment>
-  );
-}
-Navigation.propTypes = {
-  contacts: propTypes.oneOfType([
-    propTypes.arrayOf(
-      propTypes.exact({
-        id: propTypes.string.isRequired,
-        name: propTypes.string.isRequired,
-      })
-    ),
-    propTypes.array,
-  ]),
-};
+export default class Navigation extends Component {
+  static propTypes = {
+    list: propTypes.array.isRequired,
+  };
+  state = { nameLang: "nameRu" };
+  //function Navigation({ list, editLang, lang }) {
 
-export default Navigation;
+  editLang = (event) => {
+    //console.log(this.state);
+    //const { nameLang } = this.state;
+    if (event) {
+      //console.log(event.target.alt);
+      if (event.target.alt === "lang_Ru") {
+        return this.setState({ nameLang: "nameRu" });
+        //console.log(nameLang);
+      } else if (event.target.alt === "lang_En") {
+        return this.setState({ nameLang: "nameEn" });
+        //console.log(nameLang);
+      }
+    }
+    // return { this.nameLang };
+  };
+  render() {
+    const { nameLang } = this.state;
+    console.log({ nameLang });
+    return (
+      <Fragment>
+        <header>
+          <div>
+            <img
+              src="../image/language/ru.png"
+              alt="lang_Ru"
+              onClick={this.editLang}
+            />
+            <img
+              src="../image/language/en.png"
+              alt="lang_En"
+              onClick={this.editLang}
+            />
+          </div>
+          <nav>
+            <ul>
+              {this.props.list.map(({ id, nameRu, nameEn, link }) => (
+                <NavigationItem
+                  key={id}
+                  name={nameLang === "nameRu" ? nameRu : nameEn}
+                  link={link}
+                />
+              ))}
+            </ul>
+          </nav>
+        </header>
+        <div className="header"></div>
+        <Switch>
+          <Route path="/" exact component={HomePage} />
+          <Route path="/About" component={AboutPage} />
+          <Route path="/Vitraj" component={VitrajPage} />
+          <Route path="/Gallery" component={GalleryPage} />
+          <Route path="/Video" component={VideoPage} />
+          <Route path="/Videoblog" component={VideoblogPage} />
+          <Route path="/Contact" component={ContactPage} />
+          <Route component={NotFoundPage} />
+        </Switch>
+      </Fragment>
+    );
+  }
+}
