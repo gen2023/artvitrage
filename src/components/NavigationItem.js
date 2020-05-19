@@ -1,6 +1,6 @@
 import React from "react";
 import propTypes from "prop-types";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function NavigationItem({ name, link }) {
   return (
@@ -8,7 +8,7 @@ function NavigationItem({ name, link }) {
       {/* <NavLink to="/books" className="link" activeClassName="active-link">
     Books
   </NavLink> */}
-      <NavLink to={link}> {name}</NavLink>
+      <Link to={link}>{name}</Link>
     </li>
   );
 }

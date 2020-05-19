@@ -1,49 +1,63 @@
 [{
     "id": "1",
-    "nameRu": "Главная",
-    "nameEn": "Home",
-    "link": ""
+    "headingRu": "Главная",
+    "headingEn": "Home",
+    "link": "",
+    "titleRu":"",
+    "titleEn":""
     
   },
   {
     "id": "2",
-    "nameRu": "Обо мне",
-    "nameEn": "About",
-    "link": "About"
+    "headingRu": "Обо мне",
+    "headingEn": "About",
+    "link": "About",
+    "titleRu":"Обо мне",
+    "titleEn":"About"
     
   },
   {
     "id": "3",
-    "nameRu": "Обучение",
-    "nameEn": "Vitraj",
-    "link": "Vitraj"
+    "headingRu": "Обучение",
+    "headingEn": "Vitraj",
+    "link": "Vitraj",
+    "titleRu":"Обучение",
+    "titleEn":"Vitraj"
     
   },
   {
     "id": "4",
-    "nameRu": "Галлерея",
-    "nameEn": "Gallery",
-    "link":"Gallery"
+    "headingRu": "Галлерея",
+    "headingEn": "Gallery",
+    "link":"Gallery",
+    "titleRu":"Мои работы",
+    "titleEn":"My work"
     
   },
   {
     "id": "5",
-    "nameRu": "Видео",
-    "nameEn": "Video",
-    "link":"Video"
+    "headingRu": "Видео",
+    "headingEn": "Video",
+    "link":"Video",
+    "titleRu":"Мли видео",
+    "titleEn":"My video"
     
   },
   {
     "id": "6",
-    "nameRu": "Видеоблог",
-    "nameEn": "Videoblog",
-    "link": "Videoblog"
+    "headingRu": "Видеоблог",
+    "headingEn": "Videoblog",
+    "link": "Videoblog",
+    "titleRu":"Мой видеоблог",
+    "titleEn":"My videoblog"
     
   },
   {
     "id": "7",
-    "nameRu": "Контакты",
-    "nameEn": "Contact",
-    "link":"Contact"
+    "headingRu": "Контакты",
+    "headingEn": "Contact",
+    "link":"Contact",
+    "titleRu":"Контакты",
+    "titleEn":"Contact"
     
   }]

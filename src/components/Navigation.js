@@ -15,27 +15,20 @@ export default class Navigation extends Component {
   static propTypes = {
     list: propTypes.array.isRequired,
   };
-  state = { nameLang: "nameRu" };
-  //function Navigation({ list, editLang, lang }) {
+  state = { nameLang: "headingRu" };
 
   editLang = (event) => {
-    //console.log(this.state);
-    //const { nameLang } = this.state;
     if (event) {
-      //console.log(event.target.alt);
       if (event.target.alt === "lang_Ru") {
-        return this.setState({ nameLang: "nameRu" });
-        //console.log(nameLang);
+        return this.setState({ nameLang: "Ru" });
       } else if (event.target.alt === "lang_En") {
-        return this.setState({ nameLang: "nameEn" });
-        //console.log(nameLang);
+        return this.setState({ nameLang: "En" });
       }
     }
-    // return { this.nameLang };
   };
   render() {
     const { nameLang } = this.state;
-    console.log({ nameLang });
+    //console.log({ nameLang });
     return (
       <Fragment>
         <header>
@@ -53,10 +46,10 @@ export default class Navigation extends Component {
           </div>
           <nav>
             <ul>
-              {this.props.list.map(({ id, nameRu, nameEn, link }) => (
+              {this.props.list.map(({ id, headingRu, headingEn, link }) => (
                 <NavigationItem
                   key={id}
-                  name={nameLang === "nameRu" ? nameRu : nameEn}
+                  name={nameLang === "Ru" ? headingRu : headingEn}
                   link={link}
                 />
               ))}
@@ -66,12 +59,16 @@ export default class Navigation extends Component {
         <div className="header"></div>
         <Switch>
           <Route path="/" exact component={HomePage} />
-          <Route path="/About" component={AboutPage} />
+          {/* <Route path="/About" component={AboutPage} /> */}
           <Route path="/Vitraj" component={VitrajPage} />
           <Route path="/Gallery" component={GalleryPage} />
           <Route path="/Video" component={VideoPage} />
           <Route path="/Videoblog" component={VideoblogPage} />
           <Route path="/Contact" component={ContactPage} />
+          <Route
+            path="/About"
+            render={(props) => <AboutPage {...props} data={nameLang} />}
+          />
           <Route component={NotFoundPage} />
         </Switch>
       </Fragment>
