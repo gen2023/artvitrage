@@ -1,0 +1,51 @@
+.homeBackground {
+  background: url(../../image/pages/overlay.png),
+    url(../../image/pages/home/intro.jpg);
+  background-size: 256px 256px, cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, bottom center;
+  background-repeat: repeat, no-repeat;
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+  position: absolute;
+}
+.homeBackground::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.contentHome {
+  color: white;
+  text-transform: uppercase;
+  font-size: 42px;
+  font-weight: bold;
+
+  vertical-align: middle;
+}
+@media screen and (max-width: 1680px) {
+  .contentHome.\31 25\25 {
+    width: 100%;
+    max-width: 1500px;
+    min-width: 1200px;
+  }
+
+  .contentHome.\37 5\25 {
+    width: 900px;
+  }
+
+  .contentHome.\35 0\25 {
+    width: 600px;
+  }
+
+  .contentHome.\32 5\25 {
+    width: 300px;
+  }
+
+  .contentHome {
+    width: 1200px;
+  }
+}

@@ -15,7 +15,7 @@ export default class Navigation extends Component {
   static propTypes = {
     list: propTypes.array.isRequired,
   };
-  state = { nameLang: "headingRu" };
+  state = { nameLang: "Ru" };
 
   editLang = (event) => {
     if (event) {
@@ -26,6 +26,7 @@ export default class Navigation extends Component {
       }
     }
   };
+  language() {}
   render() {
     const { nameLang } = this.state;
     //console.log({ nameLang });
