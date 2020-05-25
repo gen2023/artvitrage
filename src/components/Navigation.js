@@ -59,18 +59,36 @@ export default class Navigation extends Component {
         </header>
         <div className="header"></div>
         <Switch>
-          <Route path="/" exact component={HomePage} />
+          {/* <Route path="/" exact component={HomePage} /> */}
           {/* <Route path="/About" component={AboutPage} /> */}
-          <Route path="/Vitraj" component={VitrajPage} />
-          <Route path="/Gallery" component={GalleryPage} />
-          <Route path="/Video" component={VideoPage} />
-          <Route path="/Videoblog" component={VideoblogPage} />
-          <Route path="/Contact" component={ContactPage} />
+          {/* <Route path="/Vitraj" component={VitrajPage} /> */}
+          {/* <Route path="/Contact" component={ContactPage} /> */}
+
+          {/* <Route component={NotFoundPage} /> */}
+          <Route
+            path="/"
+            exact
+            render={(props) => <HomePage {...props} data={nameLang} />}
+          />
           <Route
             path="/About"
             render={(props) => <AboutPage {...props} data={nameLang} />}
           />
-          <Route component={NotFoundPage} />
+          <Route
+            path="/Vitraj"
+            render={(props) => <VitrajPage {...props} data={nameLang} />}
+          />
+
+          <Route path="/Gallery" component={GalleryPage} />
+          <Route path="/Video" component={VideoPage} />
+          <Route path="/Videoblog" component={VideoblogPage} />
+          <Route
+            path="/Contact"
+            render={(props) => <ContactPage {...props} data={nameLang} />}
+          />
+          <Route
+            render={(props) => <NotFoundPage {...props} data={nameLang} />}
+          />
         </Switch>
       </Fragment>
     );

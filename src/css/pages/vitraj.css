@@ -1,0 +1,28 @@
+.vitrajBackground {
+  background: url(../../image/pages/overlay.png),
+    url(../../image/pages/vitraj/one.jpg);
+  background-size: 256px 256px, cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, center center;
+  height: 100%;
+  width: 100%;
+}
+
+.pageVitraj {
+  display: table;
+  position: absolute;
+  padding-top: 6em !important;
+}
+
+.contentVitraj {
+  background: rgba(255, 255, 255, 0.85);
+  margin: auto;
+  padding: 3.5em 2.5em 3.5em 2.5em;
+  position: relative;
+  width: 35%;
+  text-align: justify;
+}
+.textVitraj {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

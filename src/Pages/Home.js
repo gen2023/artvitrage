@@ -1,7 +1,7 @@
 import React from "react";
 import homeText from "../json/pages/home.json";
 
-const About = (nameLang) => {
+const Home = (nameLang) => {
   let title = homeText.titleRu;
   let autor = homeText.autorRu;
 
@@ -10,7 +10,7 @@ const About = (nameLang) => {
     autor = homeText.autorRu;
   } else {
     if (nameLang.data === "En") {
-      title = homeText.titlegEn;
+      title = homeText.titleEn;
       autor = homeText.autorEn;
     }
   }
@@ -23,4 +23,4 @@ const About = (nameLang) => {
     </div>
   );
 };
-export default About;
+export default Home;
