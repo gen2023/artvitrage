@@ -1,6 +1,9 @@
 import React, { Fragment, Component } from "react";
 import { Route, Switch } from "react-router-dom";
 import propTypes from "prop-types";
+
+import LangRu from "../image/language/ru.png";
+import LangEn from "../image/language/en.png";
 import NavigationItem from "./NavigationItem";
 import HomePage from "../Pages/Home";
 import AboutPage from "../Pages/About";
@@ -29,21 +32,13 @@ export default class Navigation extends Component {
   language() {}
   render() {
     const { nameLang } = this.state;
-    //console.log({ nameLang });
+    console.log({ nameLang });
     return (
       <Fragment>
         <header>
           <div>
-            <img
-              src="../image/language/ru.png"
-              alt="lang_Ru"
-              onClick={this.editLang}
-            />
-            <img
-              src="../image/language/en.png"
-              alt="lang_En"
-              onClick={this.editLang}
-            />
+            <img src={LangRu} alt="lang_Ru" onClick={this.editLang} />
+            <img src={LangEn} alt="lang_En" onClick={this.editLang} />
           </div>
           <nav>
             <ul>
@@ -63,27 +58,31 @@ export default class Navigation extends Component {
           {/* <Route path="/About" component={AboutPage} /> */}
           {/* <Route path="/Vitraj" component={VitrajPage} /> */}
           {/* <Route path="/Contact" component={ContactPage} /> */}
+          {/* <Route path="/Gallery" component={GalleryPage} /> */}
 
           {/* <Route component={NotFoundPage} /> */}
           <Route
-            path="/"
+            path="/artvitrage/"
             exact
             render={(props) => <HomePage {...props} data={nameLang} />}
           />
           <Route
-            path="/About"
+            path="/artvitrage/About"
             render={(props) => <AboutPage {...props} data={nameLang} />}
           />
           <Route
-            path="/Vitraj"
+            path="/artvitrage/Vitraj"
             render={(props) => <VitrajPage {...props} data={nameLang} />}
           />
-
-          <Route path="/Gallery" component={GalleryPage} />
-          <Route path="/Video" component={VideoPage} />
-          <Route path="/Videoblog" component={VideoblogPage} />
           <Route
-            path="/Contact"
+            path="/artvitrage/Gallery"
+            render={(props) => <GalleryPage {...props} data={nameLang} />}
+          />
+
+          <Route path="/artvitrage/Video" component={VideoPage} />
+          <Route path="/artvitrage/Videoblog" component={VideoblogPage} />
+          <Route
+            path="/artvitrage/Contact"
             render={(props) => <ContactPage {...props} data={nameLang} />}
           />
           <Route

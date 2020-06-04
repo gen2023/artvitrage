@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1a3852f3faf19b209e80b5f9e9251172",
+    "revision": "aa8177e9659542b2a263022e89cdab8d",
     "url": "/artvitrage/index.html"
   },
   {
-    "revision": "bc12742d458353e14809",
+    "revision": "b2e3835a8811dc63ed89",
     "url": "/artvitrage/static/css/main.92ae5ab1.chunk.css"
   },
   {
-    "revision": "ca0712fef5c85df78fb0",
-    "url": "/artvitrage/static/js/2.890924d2.chunk.js"
+    "revision": "ea5452e3525e7e10cb33",
+    "url": "/artvitrage/static/js/2.975569bd.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/artvitrage/static/js/2.890924d2.chunk.js.LICENSE.txt"
+    "url": "/artvitrage/static/js/2.975569bd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bc12742d458353e14809",
-    "url": "/artvitrage/static/js/main.9f8638b5.chunk.js"
+    "revision": "b2e3835a8811dc63ed89",
+    "url": "/artvitrage/static/js/main.75cfa7e1.chunk.js"
   },
   {
     "revision": "5bf712c346f7a99828bf",

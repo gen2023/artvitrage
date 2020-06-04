@@ -2,7 +2,7 @@
     "id": "1",
     "headingRu": "Главная",
     "headingEn": "Home",
-    "link": "",
+    "link": "/artvitrage/",
     "titleRu":"",
     "titleEn":""
     
@@ -11,7 +11,7 @@
     "id": "2",
     "headingRu": "Обо мне",
     "headingEn": "About",
-    "link": "About",
+    "link": "/artvitrage/About",
     "titleRu":"Обо мне",
     "titleEn":"About"
     
@@ -20,7 +20,7 @@
     "id": "3",
     "headingRu": "Обучение",
     "headingEn": "Vitraj",
-    "link": "Vitraj",
+    "link": "/artvitrage/Vitraj",
     "titleRu":"Обучение",
     "titleEn":"Vitraj"
     
@@ -29,7 +29,7 @@
     "id": "4",
     "headingRu": "Галлерея",
     "headingEn": "Gallery",
-    "link":"Gallery",
+    "link":"/artvitrage/Gallery",
     "titleRu":"Мои работы",
     "titleEn":"My work"
     
@@ -38,7 +38,7 @@
     "id": "5",
     "headingRu": "Видео",
     "headingEn": "Video",
-    "link":"Video",
+    "link":"/artvitrage/Video",
     "titleRu":"Мли видео",
     "titleEn":"My video"
     
@@ -47,7 +47,7 @@
     "id": "6",
     "headingRu": "Видеоблог",
     "headingEn": "Videoblog",
-    "link": "Videoblog",
+    "link": "/artvitrage/Videoblog",
     "titleRu":"Мой видеоблог",
     "titleEn":"My videoblog"
     
@@ -56,7 +56,7 @@
     "id": "7",
     "headingRu": "Контакты",
     "headingEn": "Contact",
-    "link":"Contact",
+    "link":"/artvitrage/Contact",
     "titleRu":"Контакты",
     "titleEn":"Contact"
     
