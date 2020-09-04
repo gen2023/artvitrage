@@ -1,13 +1,14 @@
-import React, { Component } from "react";
-import "../css/reset.css";
-import "../css/index.css";
-import "../css/pages/about.css";
-import "../css/pages/vitraj.css";
-import "../css/pages/home.css";
-import "../css/pages/contact.css";
-import "../css/pages/notFound.css";
-import Navigation from "./Navigation";
-import NavigationData from "../json/Navigation.json";
+import React, { Component } from 'react';
+import '../../node_modules/modern-normalize/modern-normalize.css';
+import '../css/index.css';
+import '../css/mobile.css';
+import '../css/pages/about.css';
+import '../css/pages/vitraj.css';
+import '../css/pages/home.css';
+import '../css/pages/contact.css';
+import '../css/pages/notFound.css';
+import Navigation from './Navigation/Navigation';
+import NavigationData from '../json/Navigation.json';
 
 export default class App extends Component {
   render() {
@@ -25,4 +26,5 @@ export default class App extends Component {
 //задача разобраться с выводом картинок для галлереи https://www.npmjs.com/package/react-image-gallery
 //карусель https://www.npmjs.com/package/react-images
 //задача разобратья с картинками npm install react-image --save
-//задача мобильная верстка
+//задача мобильная верстка главной страницы
+//задача доверстать до идеала главную страницу

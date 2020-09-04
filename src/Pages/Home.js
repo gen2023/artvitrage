@@ -1,24 +1,24 @@
-import React from "react";
-import homeText from "../json/pages/home.json";
+import React from 'react';
+import homeText from '../json/pages/home.json';
 
-const Home = (nameLang) => {
+const Home = nameLang => {
   let title = homeText.titleRu;
-  let autor = homeText.autorRu;
+  let author = homeText.authorRu;
 
-  if (nameLang.data === "Ru") {
+  if (nameLang.data === 'Ru') {
     title = homeText.titleRu;
-    autor = homeText.autorRu;
+    author = homeText.authorRu;
   } else {
-    if (nameLang.data === "En") {
+    if (nameLang.data === 'En') {
       title = homeText.titleEn;
-      autor = homeText.autorEn;
+      author = homeText.authorEn;
     }
   }
   return (
     <div className="homeBackground">
       <div className="content contentHome">
-        <div>{title}</div>
-        <div>{autor}</div>
+        <div className="contentHomeTitle">{title}</div>
+        <div className="contentHomeAuthor">{author}</div>
       </div>
     </div>
   );

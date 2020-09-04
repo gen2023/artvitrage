@@ -1,6 +1,6 @@
 {
   "name": "artvitrage",
-  "version": "0.1.1",
+  "version": "0.1.9",
   "homepage": "https://gen2023.github.io/artvitrage",
   "author": "Romanko Evgen <gen2023@yandex.ru>",
   "private": true,
@@ -9,6 +9,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "gh-pages": "^2.2.0",
+    "modern-normalize": "^1.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
