@@ -25,3 +25,4 @@ export default class App extends Component {
 //задача разобраться с выводом картинок для галлереи https://www.npmjs.com/package/react-image-gallery
 //карусель https://www.npmjs.com/package/react-images
 //задача разобратья с картинками npm install react-image --save
+//задача мобильная верстка

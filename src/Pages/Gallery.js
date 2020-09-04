@@ -20,6 +20,12 @@ const Contact = (nameLang) => {
         <h1 style={{ textAlign: "center" }}>{heading}</h1>
         <div className="textAbout">{text}</div>
       </div>
+      <div className="gallery">
+        <img
+          src={process.env.PUBLIC_URL + "/portrait_human/1.jpg"}
+          alt="titleHuman"
+        />
+      </div>
     </div>
   );
 };

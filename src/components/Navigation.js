@@ -14,11 +14,26 @@ import VideoblogPage from "../Pages/Videoblog";
 import ContactPage from "../Pages/Contact";
 import NotFoundPage from "../Pages/NotFound";
 
+import { saveToLS, getFromLS } from "../services/localStorage";
+
 export default class Navigation extends Component {
   static propTypes = {
     list: propTypes.array.isRequired,
   };
   state = { nameLang: "Ru" };
+
+  componentDidMount() {
+    this.setState({ nameLang: getFromLS("nameLang") });
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    const nextNameLang = this.state.nameLang;
+    const prevNameLang = prevState.nameLang;
+
+    if (nextNameLang !== prevNameLang) {
+      saveToLS("nameLang", nextNameLang);
+    }
+  }
 
   editLang = (event) => {
     if (event) {
