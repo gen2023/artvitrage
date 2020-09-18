@@ -72,7 +72,7 @@ export default class Navigation extends Component {
             </ul>
           </nav>
         </header>
-        <div className="header"></div>
+        {/* <div className="header"></div> */}
         <Switch>
           {/* <Route path="/" exact component={HomePage} /> */}
           {/* <Route path="/About" component={AboutPage} /> */}

@@ -7,10 +7,6 @@ header {
   background: #dee5e7;
   box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
 }
-.header {
-  height: 50px;
-}
-
 .content {
   -moz-transition: all 1s ease;
   -webkit-transition: all 1s ease;

@@ -25,9 +25,11 @@
 .contentHomeTitle {
   font-weight: bold;
   font-size: 74px;
+  text-shadow: -7px 4px #505050;
 }
 .contentHomeAuthor {
   font-size: 39px;
+  text-shadow: -4px 2px black;
 }
 
 @media screen and (max-width: 1680px) {

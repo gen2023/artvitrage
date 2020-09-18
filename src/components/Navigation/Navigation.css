@@ -1,5 +1,6 @@
 .languageContent {
   display: flex;
+  position: absolute;
 }
 .languageList {
   width: 30px;
