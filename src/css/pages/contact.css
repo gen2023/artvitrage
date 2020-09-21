@@ -1,0 +1,25 @@
+.contactBackground {
+  background: url(../../image/pages/overlay.png),
+    url(../../image/pages/contact/contact.png);
+  background-size: 256px 256px, cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, center center;
+  height: 100%;
+  width: 100%;
+}
+
+.pageContact {
+  display: table;
+  position: absolute;
+
+  padding-top: 6em !important;
+}
+
+.contentContact {
+  background: rgba(255, 255, 255, 0.75);
+  margin: auto;
+  padding: 1.5em 1.25em 1.5em 1.25em;
+  position: relative;
+  width: 35%;
+  text-align: justify;
+}

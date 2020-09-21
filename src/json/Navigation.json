@@ -4,7 +4,8 @@
     "headingEn": "Home",
     "link": "/artvitrage/",
     "titleRu":"",
-    "titleEn":""
+    "titleEn":"",
+    "classNameStyle": "icon fa fa-home"
     
   },
   {
@@ -13,8 +14,8 @@
     "headingEn": "About",
     "link": "/artvitrage/About",
     "titleRu":"Обо мне",
-    "titleEn":"About"
-    
+    "titleEn":"About",
+    "classNameStyle": "icon fa fa-user"    
   },
   {
     "id": "3",
@@ -22,17 +23,17 @@
     "headingEn": "Vitraj",
     "link": "/artvitrage/Vitraj",
     "titleRu":"Обучение",
-    "titleEn":"Vitraj"
-    
+    "titleEn":"Vitraj",
+    "classNameStyle": "icon fa fa-paint-brush"    
   },
   {
     "id": "4",
-    "headingRu": "Галлерея",
+    "headingRu": "Галерея",
     "headingEn": "Gallery",
     "link":"/artvitrage/Gallery",
     "titleRu":"Мои работы",
-    "titleEn":"My work"
-    
+    "titleEn":"My work",
+    "classNameStyle": "icon fa fa-picture-o"    
   },
   {
     "id": "5",
@@ -40,8 +41,8 @@
     "headingEn": "Video",
     "link":"/artvitrage/Video",
     "titleRu":"Мли видео",
-    "titleEn":"My video"
-    
+    "titleEn":"My video",
+    "classNameStyle": "icon fa fa-video-camera"    
   },
   {
     "id": "6",
@@ -49,8 +50,8 @@
     "headingEn": "Videoblog",
     "link": "/artvitrage/Videoblog",
     "titleRu":"Мой видеоблог",
-    "titleEn":"My videoblog"
-    
+    "titleEn":"My videoblog",
+    "classNameStyle": "icon fa fa-file-video-o"    
   },
   {
     "id": "7",
@@ -58,6 +59,6 @@
     "headingEn": "Contact",
     "link":"/artvitrage/Contact",
     "titleRu":"Контакты",
-    "titleEn":"Contact"
-    
+    "titleEn":"Contact",
+    "classNameStyle": "icon fa fa-phone"    
   }]

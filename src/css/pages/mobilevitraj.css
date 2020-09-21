@@ -1,0 +1,12 @@
+@media screen and (max-width: 768px) {
+  .contentVitraj {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .contentVitraj {
+    width: 85%;
+    margin-left: 25px;
+    padding: 0 1.25em;
+  }
+}

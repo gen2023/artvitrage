@@ -62,13 +62,16 @@ export default class Navigation extends Component {
           </div>
           <nav>
             <ul>
-              {this.props.list.map(({ id, headingRu, headingEn, link }) => (
-                <NavigationItem
-                  key={id}
-                  name={nameLang === 'Ru' ? headingRu : headingEn}
-                  link={link}
-                />
-              ))}
+              {this.props.list.map(
+                ({ id, headingRu, headingEn, link, classNameStyle }) => (
+                  <NavigationItem
+                    key={id}
+                    name={nameLang === 'Ru' ? headingRu : headingEn}
+                    link={link}
+                    classNameStyle={classNameStyle}
+                  />
+                ),
+              )}
             </ul>
           </nav>
         </header>
