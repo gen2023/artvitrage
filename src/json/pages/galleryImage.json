@@ -1,0 +1,74 @@
+[
+    {
+        "id":1,
+        "categoryEn":"Animals",
+        "categoryRu":"Животные",
+        "picture":"cat.jpg"
+    },
+    {
+        "id":2,
+        "categoryEn":"architecture",
+        "categoryRu":"архитектура",
+        "picture":"bridge.jpg"
+    },
+    {
+        "id":3,
+        "categoryEn":"Birds",
+        "categoryRu":"Пернатые",
+        "picture":"owl.jpg"
+    },
+    {
+        "id":4,
+        "categoryEn":"childish",
+        "categoryRu":"Детские",
+        "picture":"owl.jpg"
+    },
+    {
+        "id":5,
+        "categoryEn":"clock",
+        "categoryRu":"Часы",
+        "picture":"cat.jpg"
+    },
+    {
+        "id":6,
+        "categoryEn":"Dishes and interior items",
+        "categoryRu":"Посуда и предметы интерьера",
+        "picture":"cat.jpg"
+    },
+    {
+        "id":7,
+        "categoryEn":"fishes",
+        "categoryRu":"Рыбы",
+        "picture":"cat.jpg"
+    },
+    {
+        "id":8,
+        "categoryEn":"frame",
+        "categoryRu":"Рамки",
+        "picture":"cat.jpg"
+    },
+    {
+        "id":9,
+        "categoryEn":"insects",
+        "categoryRu":"Насекомые",
+        "picture":"cat.jpg"
+    },
+    {
+        "id":10,
+        "categoryEn":"landscape",
+        "categoryRu":"Пейзажи",
+        "picture":"cat.jpg"
+    },
+    {
+        "id":11,
+        "categoryEn":"Portrait, human",
+        "categoryRu":"Портреты, люди",
+        "picture":"cat.jpg"
+    },
+    {
+        "id":12,
+        "categoryEn":"Still life",
+        "categoryRu":"Натюрморт",
+        "picture":"cat.jpg"
+    }
+    ]
