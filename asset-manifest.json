@@ -1,25 +1,29 @@
 {
   "files": {
-    "main.css": "/artvitrage/static/css/main.92ae5ab1.chunk.css",
-    "main.js": "/artvitrage/static/js/main.75cfa7e1.chunk.js",
-    "main.js.map": "/artvitrage/static/js/main.75cfa7e1.chunk.js.map",
+    "main.css": "/artvitrage/static/css/main.31430298.chunk.css",
+    "main.js": "/artvitrage/static/js/main.d5383788.chunk.js",
+    "main.js.map": "/artvitrage/static/js/main.d5383788.chunk.js.map",
     "runtime-main.js": "/artvitrage/static/js/runtime-main.1074efa3.js",
     "runtime-main.js.map": "/artvitrage/static/js/runtime-main.1074efa3.js.map",
-    "static/js/2.975569bd.chunk.js": "/artvitrage/static/js/2.975569bd.chunk.js",
-    "static/js/2.975569bd.chunk.js.map": "/artvitrage/static/js/2.975569bd.chunk.js.map",
+    "static/css/2.3d72dcb8.chunk.css": "/artvitrage/static/css/2.3d72dcb8.chunk.css",
+    "static/js/2.aa742a8c.chunk.js": "/artvitrage/static/js/2.aa742a8c.chunk.js",
+    "static/js/2.aa742a8c.chunk.js.map": "/artvitrage/static/js/2.aa742a8c.chunk.js.map",
     "index.html": "/artvitrage/index.html",
-    "precache-manifest.0e6969e44fb7e235b70fd09baf11853c.js": "/artvitrage/precache-manifest.0e6969e44fb7e235b70fd09baf11853c.js",
+    "precache-manifest.f1efd1e4ccfcadd500373778217dafec.js": "/artvitrage/precache-manifest.f1efd1e4ccfcadd500373778217dafec.js",
     "service-worker.js": "/artvitrage/service-worker.js",
-    "static/css/main.92ae5ab1.chunk.css.map": "/artvitrage/static/css/main.92ae5ab1.chunk.css.map",
-    "static/js/2.975569bd.chunk.js.LICENSE.txt": "/artvitrage/static/js/2.975569bd.chunk.js.LICENSE.txt",
+    "static/css/2.3d72dcb8.chunk.css.map": "/artvitrage/static/css/2.3d72dcb8.chunk.css.map",
+    "static/css/main.31430298.chunk.css.map": "/artvitrage/static/css/main.31430298.chunk.css.map",
+    "static/js/2.aa742a8c.chunk.js.LICENSE.txt": "/artvitrage/static/js/2.aa742a8c.chunk.js.LICENSE.txt",
+    "static/media/contact.css": "/artvitrage/static/media/contact.66009cfa.png",
     "static/media/home.css": "/artvitrage/static/media/intro.e2f38849.jpg",
     "static/media/vitraj.css": "/artvitrage/static/media/one.34af8eba.jpg",
     "static/media/about.css": "/artvitrage/static/media/two.58f44017.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1074efa3.js",
-    "static/js/2.975569bd.chunk.js",
-    "static/css/main.92ae5ab1.chunk.css",
-    "static/js/main.75cfa7e1.chunk.js"
+    "static/css/2.3d72dcb8.chunk.css",
+    "static/js/2.aa742a8c.chunk.js",
+    "static/css/main.31430298.chunk.css",
+    "static/js/main.d5383788.chunk.js"
   ]
 }
