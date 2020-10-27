@@ -1,11 +1,9 @@
-import React, { Component, Fragment } from 'react';
-import { connect } from 'react-redux';
+import React, { Fragment, Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import propTypes from 'prop-types';
 
-import * as actions from '../../redux/actoins';
-import icoLangRu from '../../image/language/ru.png';
-import icoLangEn from '../../image/language/en.png';
+import LangRu from '../../image/language/ru.png';
+import LangEn from '../../image/language/en.png';
 import NavigationItem from './NavigationItem';
 import HomePage from '../../Pages/Home';
 import AboutPage from '../../Pages/About';
@@ -50,16 +48,16 @@ export default class Navigation extends Component {
   language() {}
   render() {
     const { nameLang } = this.state;
-    // console.log({ nameLang });
+    console.log({ nameLang });
     return (
       <Fragment>
         <header>
           <div className="languageContent">
             <div className="languageList">
-              <img src={icoLangRu} alt="lang_Ru" onClick={this.editLang} />
+              <img src={LangRu} alt="lang_Ru" onClick={this.editLang} />
             </div>
             <div className="languageList">
-              <img src={icoLangEn} alt="lang_En" onClick={this.editLang} />
+              <img src={LangEn} alt="lang_En" onClick={this.editLang} />
             </div>
           </div>
           <nav>
