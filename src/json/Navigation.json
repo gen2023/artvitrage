@@ -2,7 +2,7 @@
     "id": "1",
     "headingRu": "Главная",
     "headingEn": "Home",
-    "link": "/artvitrage/",
+    "link": "/",
     "titleRu":"",
     "titleEn":"",
     "classNameStyle": "icon fa fa-home"
@@ -12,7 +12,7 @@
     "id": "2",
     "headingRu": "Обо мне",
     "headingEn": "About",
-    "link": "/artvitrage/About",
+    "link": "/about",
     "titleRu":"Обо мне",
     "titleEn":"About",
     "classNameStyle": "icon fa fa-user"    
@@ -21,7 +21,7 @@
     "id": "3",
     "headingRu": "Обучение",
     "headingEn": "Vitraj",
-    "link": "/artvitrage/Vitraj",
+    "link": "/vitraj",
     "titleRu":"Обучение",
     "titleEn":"Vitraj",
     "classNameStyle": "icon fa fa-paint-brush"    
@@ -30,7 +30,7 @@
     "id": "4",
     "headingRu": "Галерея",
     "headingEn": "Gallery",
-    "link":"/artvitrage/Gallery",
+    "link":"/gallery",
     "titleRu":"Мои работы",
     "titleEn":"My work",
     "classNameStyle": "icon fa fa-picture-o"    
@@ -39,7 +39,7 @@
     "id": "5",
     "headingRu": "Видео",
     "headingEn": "Video",
-    "link":"/artvitrage/Video",
+    "link":"/video",
     "titleRu":"Мли видео",
     "titleEn":"My video",
     "classNameStyle": "icon fa fa-video-camera"    
@@ -48,7 +48,7 @@
     "id": "6",
     "headingRu": "Видеоблог",
     "headingEn": "Videoblog",
-    "link": "/artvitrage/Videoblog",
+    "link": "/videoblog",
     "titleRu":"Мой видеоблог",
     "titleEn":"My videoblog",
     "classNameStyle": "icon fa fa-file-video-o"    
@@ -57,7 +57,7 @@
     "id": "7",
     "headingRu": "Контакты",
     "headingEn": "Contact",
-    "link":"/artvitrage/Contact",
+    "link":"/contact",
     "titleRu":"Контакты",
     "titleEn":"Contact",
     "classNameStyle": "icon fa fa-phone"    

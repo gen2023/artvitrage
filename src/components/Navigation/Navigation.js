@@ -2,6 +2,8 @@ import React, { Fragment, Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import propTypes from 'prop-types';
 
+import routes from '../../services/routes';
+
 import LangRu from '../../image/language/ru.png';
 import LangEn from '../../image/language/en.png';
 import NavigationItem from './NavigationItem';
@@ -13,6 +15,8 @@ import VideoPage from '../../Pages/Video';
 import VideoblogPage from '../../Pages/Videoblog';
 import ContactPage from '../../Pages/Contact';
 import NotFoundPage from '../../Pages/NotFound';
+import GalleryImage from '../../Pages/GalleryImage'
+
 
 import { saveToLS, getFromLS } from '../../services/localStorage';
 import './Navigation.css';
@@ -60,7 +64,7 @@ export default class Navigation extends Component {
               <img src={LangEn} alt="lang_En" onClick={this.editLang} />
             </div>
           </div>
-          <nav>
+          <nav className="listHeader">
             <ul>
               {this.props.list.map(
                 ({ id, headingRu, headingEn, link, classNameStyle }) => (
@@ -77,35 +81,30 @@ export default class Navigation extends Component {
         </header>
         {/* <div className="header"></div> */}
         <Switch>
-          {/* <Route path="/" exact component={HomePage} /> */}
-          {/* <Route path="/About" component={AboutPage} /> */}
-          {/* <Route path="/Vitraj" component={VitrajPage} /> */}
-          {/* <Route path="/Contact" component={ContactPage} /> */}
-          {/* <Route path="/Gallery" component={GalleryPage} /> */}
 
-          {/* <Route component={NotFoundPage} /> */}
           <Route
-            path="/artvitrage/"
+            path={routes.home}
             exact
             render={props => <HomePage {...props} data={nameLang} />}
           />
           <Route
-            path="/artvitrage/About"
+            path={routes.about}
             render={props => <AboutPage {...props} data={nameLang} />}
           />
           <Route
-            path="/artvitrage/Vitraj"
+            path={routes.vitraj}
             render={props => <VitrajPage {...props} data={nameLang} />}
           />
           <Route
-            path="/artvitrage/Gallery"
+            path={routes.gallery}
+            exact
             render={props => <GalleryPage {...props} data={nameLang} />}
           />
-
-          <Route path="/artvitrage/Video" component={VideoPage} />
-          <Route path="/artvitrage/Videoblog" component={VideoblogPage} />
+          <Route path={routes.galleryCategoria} component={GalleryImage} />
+          <Route path={routes.video} component={VideoPage} />
+          <Route path={routes.videoblog} component={VideoblogPage} />
           <Route
-            path="/artvitrage/Contact"
+            path={routes.contact}
             render={props => <ContactPage {...props} data={nameLang} />}
           />
           <Route

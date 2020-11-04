@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2ea352f6f373c504ce2263ebe77c5ead",
+    "revision": "2f4ce378429030236a986c634a94fab5",
     "url": "/artvitrage/index.html"
   },
   {
-    "revision": "c9246c0533bac80ea88f",
+    "revision": "e9aea027c95948b402fd",
     "url": "/artvitrage/static/css/2.3d72dcb8.chunk.css"
   },
   {
-    "revision": "a6cab44da09880682800",
-    "url": "/artvitrage/static/css/main.31430298.chunk.css"
+    "revision": "43f775b4fe7adf2d751c",
+    "url": "/artvitrage/static/css/main.c7ebae45.chunk.css"
   },
   {
-    "revision": "c9246c0533bac80ea88f",
-    "url": "/artvitrage/static/js/2.aa742a8c.chunk.js"
+    "revision": "e9aea027c95948b402fd",
+    "url": "/artvitrage/static/js/2.3afcdfc9.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/artvitrage/static/js/2.aa742a8c.chunk.js.LICENSE.txt"
+    "url": "/artvitrage/static/js/2.3afcdfc9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a6cab44da09880682800",
-    "url": "/artvitrage/static/js/main.d5383788.chunk.js"
+    "revision": "43f775b4fe7adf2d751c",
+    "url": "/artvitrage/static/js/main.7c22be62.chunk.js"
   },
   {
     "revision": "5bf712c346f7a99828bf",

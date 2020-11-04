@@ -11,11 +11,13 @@ import '../css/pages/mobileHome.css';
 import '../css/pages/contact.css';
 import '../css/pages/mobileContact.css';
 import '../css/pages/notFound.css';
+import '../css/pages/galleryImage.css';
 import Navigation from './Navigation/Navigation';
 import NavigationData from '../json/Navigation.json';
 
 export default class App extends Component {
   render() {
     return <Navigation list={NavigationData} />;
+    
   }
 }
