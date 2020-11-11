@@ -1,26 +1,33 @@
-import React from 'react';
-import homeText from '../json/pages/home.json';
+import React,{Component} from 'react';
+import {connect} from 'react-redux';
 
-const Home = nameLang => {
-  let title = homeText.titleRu;
-  let author = homeText.authorRu;
+import homeTextRu from '../json/ru/home.json';
+import homeTextEn from '../json/en/home.json';
 
-  if (nameLang.data === 'Ru') {
-    title = homeText.titleRu;
-    author = homeText.authorRu;
-  } else {
-    if (nameLang.data === 'En') {
-      title = homeText.titleEn;
-      author = homeText.authorEn;
-    }
+class Home extends Component {
+  funcLanguage() {
+    const {language } = this.props;
+
+  if (language==="Ru"){
+    
+    return homeTextRu;
   }
+  else
+  {return homeTextEn;}
+ }
+ render() {
+  const list=this.funcLanguage();
   return (
     <div className="homeBackground">
       <div className="content contentHome">
-        <div className="contentHomeTitle">{title}</div>
-        <div className="contentHomeAuthor">{author}</div>
+        <div className="contentHomeTitle">{list.title}</div>
+        <div className="contentHomeAuthor">{list.author}</div>
       </div>
     </div>
   );
 };
-export default Home;
+};
+//получение языка в пропах
+const mapStateToProps=state=>{return {language: state.language}}
+
+export default connect(mapStateToProps)(Home)

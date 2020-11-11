@@ -1,43 +1,37 @@
-import React from "react";
-import VitrajText from "../json/pages/vitraj.json";
+import React,{Component} from 'react';
+import {connect} from 'react-redux';
 
-const Vitraj = (nameLang) => {
-  let heading = VitrajText.headingRu;
-  let text1 = VitrajText.text1Ru;
-  let text2 = VitrajText.text2Ru;
-  let text3 = VitrajText.text3Ru;
-  let text4 = VitrajText.text4Ru;
-  let text5 = VitrajText.text5Ru;
+import VitrajTextRu from "../json/ru/vitraj.json";
+import VitrajTextEn from "../json/en/vitraj.json";
 
-  //console.log(AboutText.textRu);
-  if (nameLang.data === "Ru") {
-    heading = VitrajText.headingRu;
-    text1 = VitrajText.text1Ru;
-    text2 = VitrajText.text2Ru;
-    text3 = VitrajText.text3Ru;
-    text4 = VitrajText.text4Ru;
-    text5 = VitrajText.text5Ru;
-  } else {
-    if (nameLang.data === "En") {
-      heading = VitrajText.headingEn;
-      text1 = VitrajText.text1En;
-      text2 = VitrajText.text2En;
-      text3 = VitrajText.text3En;
-      text4 = VitrajText.text4En;
-      text5 = VitrajText.text5En;
-    }
+class Vitraj extends Component {
+  funcLanguage() {
+    const {language } = this.props;
+
+  if (language==="Ru"){
+    
+    return VitrajTextRu;
   }
+  else
+  {return VitrajTextEn;}
+ }
+ render() {
+  const list=this.funcLanguage();
   return (
     <div className="vitrajBackground pageAbout ">
       <div className="content contentVitraj">
-        <h1 style={{ textAlign: "center" }}>{heading}</h1>
-        <div className="textVitraj">{text1}</div>
-        <div className="textVitraj">{text2}</div>
-        <div className="textVitraj">{text3}</div>
-        <div className="textVitraj">{text4}</div>
-        <div className="textVitraj">{text5}</div>
+        <h1 style={{ textAlign: "center" }}>{list.heading}</h1>
+        <div className="textVitraj">{list.text1}</div>
+        <div className="textVitraj">{list.text2}</div>
+        <div className="textVitraj">{list.text3}</div>
+        <div className="textVitraj">{list.text4}</div>
+        <div className="textVitraj">{list.text5}</div>
       </div>
     </div>
   );
 };
-export default Vitraj;
+};
+//получение языка в пропах
+const mapStateToProps=state=>{return {language: state.language}}
+
+export default connect(mapStateToProps)(Vitraj)

@@ -1,6 +1,7 @@
 .languageContent {
   display: flex;
   position: absolute;
+  margin-top: 25px;
 }
 .languageList {
   width: 30px;
@@ -37,13 +38,19 @@
   font-size: 20px;
 }
 
+.icon::before {
+  font-size: 24px;
+}
+
 @media screen and (max-width: 950px) {
   .listHeader ul li a {
     font-size: 0px;
     padding: 6px 0 0px 10px !important;
   }
-}
-
-.icon::before {
-  font-size: 24px;
+  .languageContent {
+    margin-top: 10px;
+  }
+  .listHeader ul li:last-child {
+    margin-right: 5px;
+  }
 }

@@ -1,0 +1,50 @@
+[{
+    "id": "1",
+    "heading": "Home",
+    "link": "/",
+    "title":"",
+    "classNameStyle": "icon fa fa-home"
+    
+  },
+  {
+    "id": "2",
+    "heading": "About",
+    "link": "/about",
+    "title":"About",
+    "classNameStyle": "icon fa fa-user"    
+  },
+  {
+    "id": "3",
+    "heading": "Vitraj",
+    "link": "/vitraj",
+    "title":"Vitraj",
+    "classNameStyle": "icon fa fa-paint-brush"    
+  },
+  {
+    "id": "4",
+    "heading": "Gallery",
+    "link":"/gallery",
+    "title":"My work",
+    "classNameStyle": "icon fa fa-picture-o"    
+  },
+  {
+    "id": "5",
+    "heading": "Video",
+    "link":"/video",
+    "title":"My video",
+    "classNameStyle": "icon fa fa-video-camera"    
+  },
+  {
+    "id": "6",
+    "heading": "Videoblog",
+    "link": "/videoblog",
+    "title":"My videoblog",
+    "classNameStyle": "icon fa fa-file-video-o"    
+  },
+  {
+    "id": "7",
+    "heading": "Contact",
+    "link":"/contact",
+    "title":"Contact",
+    "classNameStyle": "icon fa fa-phone"    
+  }]

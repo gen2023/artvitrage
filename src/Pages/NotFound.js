@@ -1,22 +1,33 @@
-import React from "react";
-import NotFoundText from "../json/pages/notFound.json";
+import React,{Component} from 'react';
+import {connect} from 'react-redux';
 
-const NotFound = (nameLang) => {
-  let error = NotFoundText.errorRu;
+import NotFoundTextRu from "../json/ru/notFound.json";
+import NotFoundTextEn from "../json/en/notFound.json";
 
-  if (nameLang.data === "Ru") {
-    error = NotFoundText.errorRu;
-  } else {
-    if (nameLang.data === "En") {
-      error = NotFoundText.errorEn;
+class NotFound extends Component {
+    funcLanguage() {
+      const {language } = this.props;
+  
+    if (language==="Ru"){
+      
+      return NotFoundTextRu;
     }
-  }
+    else
+    {return NotFoundTextEn;}
+   }
+   render() {
+    const list=this.funcLanguage();
   return (
     <div className="notFound">
       <h1 style={{ textAlign: "center" }}>
-        {error} <span role="img" aria-label="emoji"></span>
+        {list.error} <span role="img" aria-label="emoji"></span>
       </h1>
     </div>
   );
 };
-export default NotFound;
+
+};
+//получение языка в пропах
+const mapStateToProps=state=>{return {language: state.language}}
+
+export default connect(mapStateToProps)(NotFound)

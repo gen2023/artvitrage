@@ -1,0 +1,200 @@
+[
+    {   
+        "id":"1",
+        "categoryFind":"animals",
+        "categoryTitle":"Животные",
+        "name":"черный кот",
+        "large": "http://artvitrag.hol.es/galleryReact/animals/b/cat_black.jpg",
+        "small":"http://artvitrag.hol.es/galleryReact/animals/cat_black.jpg",
+        "size":"15x15"
+    },
+    {
+        "id":"2",
+        "categoryFind":"animals",
+        "categoryTitle":"Животные",
+        "name":"черный кот",
+        "large":"http://artvitrag.hol.es/galleryReact/animals/b/cat_color.jpg",
+        "small":"http://artvitrag.hol.es/galleryReact/animals/cat_color.jpg",
+        "size":"20x15"
+    },
+    {
+        "id":"3",
+        "categoryFind":"animals",
+        "categoryTitle":"Животные",
+        "name":"черный кот",
+        "large":"http://artvitrag.hol.es/galleryReact/animals/b/elephant.jpg",
+        "small":"http://artvitrag.hol.es/galleryReact/animals/elephant.jpg",
+        "size":"15x30"
+    },
+    {
+        "id":"4",
+        "categoryFind":"animals",
+        "categoryTitle":"Животные",
+        "name":"черный кот",
+        "large":"http://artvitrag.hol.es/galleryReact/animals/b/giraffe.jpg",
+        "small":"http://artvitrag.hol.es/galleryReact/animals/giraffe.jpg",
+        "size":"15x15"
+    },
+    {
+        "id":"5",
+        "categoryFind":"animals",
+        "categoryTitle":"Животные",
+        "name":"черный кот",
+        "large":"http://artvitrag.hol.es/galleryReact/animals/b/horse.jpg",
+        "small":"http://artvitrag.hol.es/galleryReact/animals/horse.jpg",
+        "size":"15x15"
+    },
+    {
+        "id":"6",
+        "categoryFind":"animals",
+        "categoryTitle":"Животные",
+        "name":"черный кот",
+        "large":"http://artvitrag.hol.es/galleryReact/animals/b/horse1.jpg",
+        "small":"http://artvitrag.hol.es/galleryReact/animals/horse1.jpg",
+        "size":"15x15"
+    },
+    {
+        "id":"7",
+        "categoryFind":"animals",
+        "categoryTitle":"Животные",
+        "name":"черный кот",
+        "large":"http://artvitrag.hol.es/galleryReact/animals/b/horse2.jpg",
+        "small":"http://artvitrag.hol.es/galleryReact/animals/horse2.jpg",
+        "size":"15x15"
+    },
+    {
+        "id":"8",
+        "categoryFind":"animals",
+        "categoryTitle":"Животные",
+        "name":"черный кот",
+        "large":"http://artvitrag.hol.es/galleryReact/animals/b/horse3.jpg",
+        "small":"http://artvitrag.hol.es/galleryReact/animals/horse3.jpg",
+        "size":"15x15"
+    },
+    {
+        "id":"9",
+        "categoryFind":"animals",
+        "categoryTitle":"Животные",
+        "name":"черный кот",
+        "large":"http://artvitrag.hol.es/galleryReact/animals/b/horse4.jpg",
+        "small":"http://artvitrag.hol.es/galleryReact/animals/horse4.jpg",
+        "size":"15x15"
+    },
+    {
+        "id":"10",
+        "categoryFind":"animals",
+        "categoryTitle":"Животные",
+        "name":"черный кот",
+        "large":"http://artvitrag.hol.es/galleryReact/animals/b/panther.jpg",
+        "small":"http://artvitrag.hol.es/galleryReact/animals/panther.jpg",
+        "size":"15x15"
+    },
+    {
+        "id":"12",
+        "categoryFind":"architecture",
+        "categoryTitle":"Архитектура",
+        "name":"черный кот",
+        "large":"http://artvitrag.hol.es/galleryReact/architecture/b/home1.jpg",
+        "small":"http://artvitrag.hol.es/galleryReact/architecture/home1.jpg",
+        "size":"15x15"
+    },
+    {
+        "id":"13",
+        "categoryFind":"architecture",
+        "categoryTitle":"Архитектура",
+        "name":"черный кот",
+        "large":"http://artvitrag.hol.es/galleryReact/architecture/b/home2.jpg",
+        "small":"http://artvitrag.hol.es/galleryReact/architecture/home2.jpg",
+        "size":"15x15"
+    },
+    {
+        "id":"14",
+        "categoryFind":"architecture",
+        "categoryTitle":"Архитектура",
+        "name":"черный кот",
+        "large":"http://artvitrag.hol.es/galleryReact/architecture/b/home3.jpg",
+        "small":"http://artvitrag.hol.es/galleryReact/architecture/home3.jpg",
+        "size":"15x15"
+    },
+    {
+        "id":"15",
+        "categoryFind":"architecture",
+        "categoryTitle":"Архитектура",
+        "name":"черный кот",
+        "large":"http://artvitrag.hol.es/galleryReact/architecture/b/home4.jpg",
+        "small":"http://artvitrag.hol.es/galleryReact/architecture/home4.jpg",
+        "size":"15x15"
+    },
+    {
+        "id":"16",
+        "categoryFind":"architecture",
+        "categoryTitle":"Архитектура",
+        "name":"черный кот",
+        "large":"http://artvitrag.hol.es/galleryReact/architecture/b/home5.jpg",
+        "small":"http://artvitrag.hol.es/galleryReact/architecture/home5.jpg",
+        "size":"15x15"
+    },
+    {
+        "id":"17",
+        "categoryFind":"architecture",
+        "categoryTitle":"Архитектура",
+        "name":"черный кот",
+        "large":"http://artvitrag.hol.es/galleryReact/architecture/b/home6.jpg",
+        "small":"http://artvitrag.hol.es/galleryReact/architecture/home6.jpg",
+        "size":"15x15"
+    },
+    {
+        "id":"18",
+        "categoryFind":"architecture",
+        "categoryTitle":"Архитектура",
+        "name":"черный кот",
+        "large":"http://artvitrag.hol.es/galleryReact/architecture/b/home7.jpg",
+        "small":"http://artvitrag.hol.es/galleryReact/architecture/home7.jpg",
+        "size":"15x15"
+    },
+    {
+        "id":"19",
+        "categoryFind":"architecture",
+        "categoryTitle":"Архитектура",
+        "name":"черный кот",
+        "large":"http://artvitrag.hol.es/galleryReact/architecture/b/home8.jpg",
+        "small":"http://artvitrag.hol.es/galleryReact/architecture/home8.jpg",
+        "size":"15x15"
+    },
+    {
+        "id":"20",
+        "categoryFind":"architecture",
+        "categoryTitle":"Архитектура",
+        "name":"черный кот",
+        "large":"http://artvitrag.hol.es/galleryReact/architecture/b/home9.jpg",
+        "small":"http://artvitrag.hol.es/galleryReact/architecture/home9.jpg",
+        "size":"15x15"
+    },
+    {
+        "id":"21",
+        "categoryFind":"architecture",
+        "categoryTitle":"Архитектура",
+        "name":"черный кот",
+        "large":"http://artvitrag.hol.es/galleryReact/architecture/b/home10.jpg",
+        "small":"http://artvitrag.hol.es/galleryReact/architecture/home10.jpg",
+        "size":"15x15"
+    },
+    {
+        "id":"22",
+        "categoryFind":"architecture",
+        "categoryTitle":"Архитектура",
+        "name":"дом",
+        "large":"http://artvitrag.hol.es/galleryReact/architecture/b/home11.jpg",
+        "small":"http://artvitrag.hol.es/galleryReact/architecture/home11.jpg",
+        "size":"15x15"
+    },
+    {
+        "id":"23",
+        "categoryFind":"architecture",
+        "categoryTitle":"Архитектура",
+        "name":"дом",
+        "large":"http://artvitrag.hol.es/galleryReact/architecture/b/home12.jpg",
+        "small":"http://artvitrag.hol.es/galleryReact/architecture/home12.jpg",
+        "size":"15x15"
+    }
+]

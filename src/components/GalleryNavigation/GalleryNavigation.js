@@ -1,39 +1,38 @@
 import React, { Fragment, Component } from 'react';
-import propTypes from 'prop-types';
+import {connect} from 'react-redux';
 
+import GalleryDataRu from '../../json/ru/GalleryNavigation.json';
+import GalleryDataEn from '../../json/en/GalleryNavigation.json';
 import GalleryNavigationItem from './GalleryNavigationItem';
 
 import './GalleryNavigation.css';
 
-export default class GalleryNavigation extends Component {
-  static propTypes = {
-    list: propTypes.array.isRequired,
-  };
+class GalleryNavigation extends Component {
 
-  editLang = event => {
-    if (event) {
-      if (event.target.alt === 'lang_Ru') {
-        return this.setState({ nameLang: 'Ru' });
-      } else if (event.target.alt === 'lang_En') {
-        return this.setState({ nameLang: 'En' });
-      }
-    }
-  };
+  funcLanguage() {
+    const {language } = this.props;
+
+  if (language==="Ru"){
+    
+    return GalleryDataRu;
+  }
+  else
+  {return GalleryDataEn;}
+ }
   language() {}
   render() {
-    const { nameLang } = "Ru";
-    //  console.log({ props.match.url });
+    const list=this.funcLanguage();
     return (
       <Fragment>
         
           
           <nav className="listCategoryGallery">
             <ul className="galleryNavigation">
-              {this.props.list.map(
-                ({ id, categoryRu, categoryEn,picture,link }) => (
+              {list.map(
+                ({ id,  category,picture }) => (
                   <GalleryNavigationItem
                     key={id}
-                    categoryName={nameLang === 'Ru' ? categoryRu : categoryEn}
+                    categoryName={category}
                     picture={picture}
                     link={`gallery/${id}`}
                   />
@@ -46,3 +45,8 @@ export default class GalleryNavigation extends Component {
     );
   }
 }
+
+//получение языка в пропах
+const mapStateToProps=state=>{return {language: state.language}}
+
+export default connect(mapStateToProps)(GalleryNavigation)

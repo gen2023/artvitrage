@@ -1,7 +1,6 @@
 {
   "name": "artvitrage",
-  "version": "0.1.13",
-  "homepage": "https://gen2023.github.io/artvitrage",
+  "version": "0.1.14",
   "author": "Romanko Evgen <gen2023@yandex.ru>",
   "private": true,
   "dependencies": {

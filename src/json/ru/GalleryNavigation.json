@@ -1,86 +1,62 @@
 [
     {
         "id":"animals",
-        "categoryEn":"Animals",
-        "categoryRu":"Животные",
-        "link": "/artvitrage/gallery/animals",
+        "category":"Животные",
         "picture":"http://artvitrag.hol.es/images/pic/animals/51-61(1)s.jpg"
     },
     {
         "id":"architecture",
-        "categoryEn":"architecture",
-        "categoryRu":"архитектура",
-        "link": "/artvitrage/gallery/architecture",
+        "category":"архитектура",
         "picture":"http://artvitrag.hol.es/images/pic/architecture/30-40(7)s.jpg"
     },
     {
         "id":"birds",
-        "categoryEn":"Birds",
-        "categoryRu":"Пернатые",
-        "link": "/architecture",
+        "category":"Пернатые",
         "picture":"http://artvitrag.hol.es/images/pic/avifauna/30-40(8)s.jpg"
     },
     {
         "id":"childish",
-        "categoryEn":"childish",
-        "categoryRu":"Детские",
-        "link": "/architecture",
+        "category":"Детские",
         "picture":"http://artvitrag.hol.es/images/pic/childish/13-18(2)s.jpg"
     },
     {
         "id":"clock",
-        "categoryEn":"clock",
-        "categoryRu":"Часы",
-        "link": "/architecture",
+        "category":"Часы",
         "picture":"http://artvitrag.hol.es/images/pic/clock/clock36-36(4)s.jpg"
     },
     {
         "id":"dishesAndInterior",
-        "categoryEn":"Dishes and interior items",
-        "categoryRu":"Посуда и предметы интерьера",
-        "link": "/architecture",
+        "category":"Посуда и предметы интерьера",
         "picture":"http://artvitrag.hol.es/images/pic/dishes_interior_items/candlestick5s.jpg"
     },
     {
         "id":"fishes",
-        "categoryEn":"fishes",
-        "categoryRu":"Рыбы",
-        "link": "/architecture",
+        "category":"Рыбы",
         "picture":"http://artvitrag.hol.es/images/pic/fishes/30-40(19)s.jpg"
     },
     {
         "id":"frame",
-        "categoryEn":"frame",
-        "categoryRu":"Рамки",
-        "link": "/architecture",
+        "category":"Рамки",
         "picture":"http://artvitrag.hol.es/images/pic/frame/frame20-30(1)s.jpg"
     },
     {
         "id":"insects",
-        "categoryEn":"insects",
-        "categoryRu":"Насекомые",
-        "link": "/architecture",
+        "category":"Насекомые",
         "picture":"http://artvitrag.hol.es/images/pic/insects/30-40(16)s.jpg"
     },
     {
         "id":"landscape",
-        "categoryEn":"landscape",
-        "categoryRu":"Пейзажи",
-        "link": "/architecture",
+        "category":"Пейзажи",
         "picture":"http://artvitrag.hol.es/images/pic/landscape/35-45(1)s.jpg"
     },
     {
         "id":"portrait",
-        "categoryEn":"Portrait, human",
-        "categoryRu":"Портреты, люди",
-        "link": "/architecture",
+        "category":"Портреты, люди",
         "picture":"http://artvitrag.hol.es/images/pic/portrait_human/(2)s.jpg"
     },
     {
         "id":"StillLife",
-        "categoryEn":"Still life",
-        "categoryRu":"Натюрморт",
-        "link": "/architecture",
+        "category":"Натюрморт",
         "picture":"http://artvitrag.hol.es/images/pic/still_life/40-40(3)s.jpg"
     }
     ]

@@ -1,45 +1,42 @@
-import React from 'react';
-import ContactText from '../json/pages/contact.json';
+import React,{Component} from 'react';
+import {connect} from 'react-redux';
 
-const Contact = nameLang => {
-  let heading = ContactText.headingRu;
-  let text1 = ContactText.text1Ru;
-  let text2 = ContactText.text2Ru;
-  let text3 = ContactText.text3Ru;
-  let text4 = ContactText.text4Ru;
-  let tel1 = ContactText.tel1;
-  let tel2 = ContactText.tel2;
-  let email = ContactText.email;
-  if (nameLang.data === 'Ru') {
-    heading = ContactText.headingRu;
-    text1 = ContactText.text1Ru;
-    text2 = ContactText.text2Ru;
-    text3 = ContactText.text3Ru;
-    text4 = ContactText.text4Ru;
-  } else {
-    if (nameLang.data === 'En') {
-      heading = ContactText.headingEn;
-      text1 = ContactText.text1En;
-      text2 = ContactText.text2En;
-      text3 = ContactText.text3En;
-      text4 = ContactText.text4En;
+import ContactTextRu from '../json/ru/contact.json';
+import ContactTextEn from '../json/en/contact.json';
+
+  class Contact extends Component {
+    funcLanguage() {
+      const {language } = this.props;
+  
+    if (language==="Ru"){
+      
+      return ContactTextRu;
     }
-  }
+    else
+    {return ContactTextEn;}
+   }
+   render() {
+    const list=this.funcLanguage();
   return (
     <div className="contactBackground pageContact">
       <div className="content contentContact">
-        <h1 style={{ textAlign: 'center' }}>{heading}</h1>
-        <div className="textAbout">{text1}</div>
+        <h1 style={{ textAlign: 'center' }}>{list.heading}</h1>
+        <div className="textAbout">{list.text1}</div>
         <div className="textAbout">
-          <a href="https://www.facebook.com/artvitrag2100/">{text2}</a>
+          <a href="https://www.facebook.com/artvitrag2100/">{list.text2}</a>
         </div>
-        <div className="textAbout">{text3}</div>
-        <div className="textAbout">{text4}</div>
-        <div className="textAbout">{tel1}</div>
-        <div className="textAbout">{tel2}</div>
-        <div className="textAbout">{email}</div>
+        <div className="textAbout">{list.text3}</div>
+        <div className="textAbout">{list.text4}</div>
+        <div className="textAbout">{list.tel1}</div>
+        <div className="textAbout">{list.tel2}</div>
+        <div className="textAbout">{list.email}</div>
       </div>
     </div>
   );
 };
-export default Contact;
+
+};
+//получение языка в пропах
+const mapStateToProps=state=>{return {language: state.language}}
+
+export default connect(mapStateToProps)(Contact)
