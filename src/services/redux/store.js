@@ -1,15 +1,35 @@
-import {createStore} from 'redux';
+import {
+    persistStore, 
+    persistReducer,
+    FLUSH,
+    REHYDRATE,
+    PAUSE,
+    PERSIST,
+    PURGE,
+    REGISTER,
+} from 'redux-persist';
+import {configureStore, getDefaultMiddleware} from '@reduxjs/toolkit';
+import languageReduser from "./language/language-reduser";
+import storage from 'redux-persist/lib/storage';
+// const rootReduser=combineReducers({language:languageReduser,})
 
-const initialState={language:'Ru'}
-const reducer=(state=initialState,{type})=>{
-    switch(type){
-        case 'Ru':return {language:'Ru'};
-        case 'En':return {language:'En'};
-
-        default: return state;
-    }
+const persistConfig={
+    key:'language',
+    storage,
+    whitelst:['language'],
 };
+const middleware=[...getDefaultMiddleware({serializableCheck:{
+    ignoredActions:[FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
+}
+}),
+];
+// const rootReduser=combineReducers({language:languageReduser});
+// const persistedReducer=persistReducer(persistConfig,rootReduser);
+// const store=createStore(rootReduser)
+const store = configureStore({
+    reducer:{language:persistReducer(persistConfig,languageReduser),},
+    middleware,
+});
+const persistor = persistStore(store);
 
-const store=createStore(reducer)
-
-export default store;
+export default {store,persistor};

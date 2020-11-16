@@ -1,8 +1,9 @@
 import React, { Fragment, Component } from 'react';
 import {connect} from 'react-redux';
 
-import GalleryDataRu from '../../json/ru/GalleryNavigation.json';
-import GalleryDataEn from '../../json/en/GalleryNavigation.json';
+import textPageRu from '../../json/ru/GalleryNavigation.json';
+import textPageEn from '../../json/en/GalleryNavigation.json';
+
 import GalleryNavigationItem from './GalleryNavigationItem';
 
 import './GalleryNavigation.css';
@@ -14,10 +15,10 @@ class GalleryNavigation extends Component {
 
   if (language==="Ru"){
     
-    return GalleryDataRu;
+    return textPageRu;
   }
   else
-  {return GalleryDataEn;}
+  {return textPageEn;}
  }
   language() {}
   render() {
@@ -47,6 +48,6 @@ class GalleryNavigation extends Component {
 }
 
 //получение языка в пропах
-const mapStateToProps=state=>{return {language: state.language}}
+const mapStateToProps=state=>{return {language: state.language.language}}
 
 export default connect(mapStateToProps)(GalleryNavigation)

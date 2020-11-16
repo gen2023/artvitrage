@@ -1,8 +1,8 @@
 import React,{Component} from 'react';
 import {connect} from 'react-redux';
 
-import NotFoundTextRu from "../json/ru/notFound.json";
-import NotFoundTextEn from "../json/en/notFound.json";
+import textPageRu from "../json/ru/notFound.json";
+import textPageEn from "../json/en/notFound.json";
 
 class NotFound extends Component {
     funcLanguage() {
@@ -10,10 +10,10 @@ class NotFound extends Component {
   
     if (language==="Ru"){
       
-      return NotFoundTextRu;
+      return textPageRu;
     }
     else
-    {return NotFoundTextEn;}
+    {return textPageEn;}
    }
    render() {
     const list=this.funcLanguage();
@@ -28,6 +28,6 @@ class NotFound extends Component {
 
 };
 //получение языка в пропах
-const mapStateToProps=state=>{return {language: state.language}}
+const mapStateToProps=state=>{return {language: state.language.language}}
 
 export default connect(mapStateToProps)(NotFound)

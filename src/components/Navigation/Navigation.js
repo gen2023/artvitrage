@@ -4,10 +4,11 @@ import { Route, Switch } from 'react-router-dom';
 import {connect} from 'react-redux';
 
 import routes from '../../services/routes';
-import * as actions from '../../services/redux/action';
+import * as actions from '../../services/redux/language/language-actions';
 
 import LangRu from '../../image/language/ru.png';
 import LangEn from '../../image/language/en.png';
+
 import NavigationItem from './NavigationItem';
 import HomePage from '../../Pages/Home';
 import AboutPage from '../../Pages/About';
@@ -18,51 +19,24 @@ import VideoblogPage from '../../Pages/Videoblog';
 import ContactPage from '../../Pages/Contact';
 import NotFoundPage from '../../Pages/NotFound';
 import GalleryImage from '../../Pages/GalleryImage';
+import MyPhoto from '../../Pages/MyPhoto';
+import WorkPhoto from '../../Pages/WorkPhoto';
 
-import NavigationRu from '../../json/ru/navigation.json';
-import NavigationEn from '../../json/en/navigation.json';
+import textPageRu from '../../json/ru/navigation.json';
+import textPageEn from '../../json/en/navigation.json';
 
-
-// import { saveToLS, getFromLS } from '../../services/localStorage';
 import './Navigation.css';
 
 class Navigation extends Component {
-  // static propTypes = {
-  //   list: propTypes.array.isRequired,
-  // };
-  // state = { nameLang: 'Ru' };
 
-  // componentDidMount() {
-  //   this.setState({ nameLang: getFromLS('nameLang') });
-  // }
-
-  // componentDidUpdate(prevProps, prevState) {
-  //   const nextNameLang = this.state.nameLang;
-  //   const prevNameLang = prevState.nameLang;
-
-  //   if (nextNameLang !== prevNameLang) {
-  //     saveToLS('nameLang', nextNameLang);
-  //   }
-  // }
-
-  // editLang = event => {
-  //   if (event) {
-  //     if (event.target.alt === 'lang_Ru') {
-  //       return this.setState({ nameLang: 'Ru' });
-  //     } else if (event.target.alt === 'lang_En') {
-  //       return this.setState({ nameLang: 'En' });
-  //     }
-  //   }
-  // };
   funcLanguage() {
     const {language } = this.props;
-
-  if (language==="Ru"){
-    
-    return NavigationRu;
+// console.log(language);
+  if (language==="Ru"){    
+    return textPageRu;
   }
   else
-  {return NavigationEn;}
+  {return textPageEn;}
  }
   render() {
     const { languageRu,languageEn } = this.props;
@@ -94,7 +68,7 @@ class Navigation extends Component {
             </ul>
           </nav>
         </header>
-        
+                
         <Switch>
 
           <Route
@@ -108,6 +82,8 @@ class Navigation extends Component {
             render={props => <AboutPage {...props} />}
             // render={props => <AboutPage {...props} data={nameLang} />}
           />
+          <Route path={routes.myPhoto} component={MyPhoto} />
+          <Route path={routes.workPhoto} component={WorkPhoto} />
           <Route
             path={routes.vitraj}
             render={props => <VitrajPage {...props} />}
@@ -132,12 +108,13 @@ class Navigation extends Component {
             // render={props => <NotFoundPage {...props} data={nameLang} />}
           />
         </Switch>
+        
       </Fragment>
     );
   }
 }
 //получение языка в пропах
-const mapStateToProps=state=>{return {language: state.language}}
+const mapStateToProps=state=>{return {language: state.language.language}}
 //отправляем пропы с языком
 const mapDispatchToProps=dispatch=>{return{
   languageRu:()=>dispatch(actions.languageRu('Ru')),

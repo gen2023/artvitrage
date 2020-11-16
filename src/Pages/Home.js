@@ -1,19 +1,19 @@
 import React,{Component} from 'react';
 import {connect} from 'react-redux';
 
-import homeTextRu from '../json/ru/home.json';
-import homeTextEn from '../json/en/home.json';
+import textPageRu from '../json/ru/home.json';
+import textPageEn from '../json/en/home.json';
 
 class Home extends Component {
   funcLanguage() {
     const {language } = this.props;
-
+    // language==="Ru" ? homeTextRu : homeTextEn;
   if (language==="Ru"){
     
-    return homeTextRu;
+    return textPageRu;
   }
   else
-  {return homeTextEn;}
+  {return textPageEn;}
  }
  render() {
   const list=this.funcLanguage();
@@ -28,6 +28,6 @@ class Home extends Component {
 };
 };
 //получение языка в пропах
-const mapStateToProps=state=>{return {language: state.language}}
+const mapStateToProps=state=>{return {language: state.language.language}}
 
 export default connect(mapStateToProps)(Home)

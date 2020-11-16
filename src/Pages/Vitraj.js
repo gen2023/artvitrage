@@ -1,8 +1,8 @@
 import React,{Component} from 'react';
 import {connect} from 'react-redux';
 
-import VitrajTextRu from "../json/ru/vitraj.json";
-import VitrajTextEn from "../json/en/vitraj.json";
+import textPageRu from "../json/ru/vitraj.json";
+import textPageEn from "../json/en/vitraj.json";
 
 class Vitraj extends Component {
   funcLanguage() {
@@ -10,10 +10,10 @@ class Vitraj extends Component {
 
   if (language==="Ru"){
     
-    return VitrajTextRu;
+    return textPageRu;
   }
   else
-  {return VitrajTextEn;}
+  {return textPageEn;}
  }
  render() {
   const list=this.funcLanguage();
@@ -32,6 +32,6 @@ class Vitraj extends Component {
 };
 };
 //получение языка в пропах
-const mapStateToProps=state=>{return {language: state.language}}
+const mapStateToProps=state=>{return {language: state.language.language}}
 
 export default connect(mapStateToProps)(Vitraj)

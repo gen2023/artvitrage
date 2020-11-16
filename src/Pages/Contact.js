@@ -1,8 +1,8 @@
 import React,{Component} from 'react';
 import {connect} from 'react-redux';
 
-import ContactTextRu from '../json/ru/contact.json';
-import ContactTextEn from '../json/en/contact.json';
+import textPageRu from '../json/ru/contact.json';
+import textPageEn from '../json/en/contact.json';
 
   class Contact extends Component {
     funcLanguage() {
@@ -10,10 +10,10 @@ import ContactTextEn from '../json/en/contact.json';
   
     if (language==="Ru"){
       
-      return ContactTextRu;
+      return textPageRu;
     }
     else
-    {return ContactTextEn;}
+    {return textPageEn;}
    }
    render() {
     const list=this.funcLanguage();
@@ -37,6 +37,6 @@ import ContactTextEn from '../json/en/contact.json';
 
 };
 //получение языка в пропах
-const mapStateToProps=state=>{return {language: state.language}}
+const mapStateToProps=state=>{return {language: state.language.language}}
 
 export default connect(mapStateToProps)(Contact)

@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 const ImageGalleryItem = ({ large,small, onClick,name,size }) => {
   return (
@@ -14,9 +14,9 @@ const ImageGalleryItem = ({ large,small, onClick,name,size }) => {
   );
 };
 
-ImageGalleryItem.propTypes = {
-  large: PropTypes.string.isRequired,
-  onClick: PropTypes.func.isRequired,
-};
+// ImageGalleryItem.propTypes = {
+//   large: PropTypes.string.isRequired,
+//   onClick: PropTypes.func.isRequired,
+// };
 
 export default ImageGalleryItem;

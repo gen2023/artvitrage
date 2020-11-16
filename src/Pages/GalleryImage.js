@@ -1,14 +1,38 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
+import { Link } from 'react-router-dom';
 
-import pictureRu from '../json/ru/galleryImage.json';
-import pictureEn from '../json/en/galleryImage.json';
+import textPageRu from '../json/ru/galleryImage.json';
+import textPageEn from '../json/en/galleryImage.json';
+import textGeneralRu from '../json/ru/general.json';
+import textGeneralEn from '../json/en/general.json';
+
 import Modal from '../components/Modal';
 import ImageGallery from '../components/ImageGallery';
 
+import routes from '../services/routes';
+
 class GalleryImage extends Component {
+  funcLanguage() {
+    const {language } = this.props;
+
+  if (language==="Ru"){    
+     
+    return Object.assign(
+      textPageRu.filter(cat=>cat.categoryFind===this.props.match.params.galleryId),
+      textGeneralRu
+      );
+  }
+  else
+  {
+    return Object.assign(
+      textPageEn.filter(cat=>cat.categoryFind===this.props.match.params.galleryId),
+      textGeneralEn
+      );
+  };
+ }
   state = {
-    images: pictureRu.filter(cat=>cat.categoryFind===this.props.match.params.galleryId),
+    images: this.funcLanguage(),
     name:null,
     size:null,
     isModal: false,
@@ -30,23 +54,20 @@ class GalleryImage extends Component {
     this.toggleModal(image,size,name);
   };
 
-  funcLanguage() {
-    const {language } = this.props;
 
-  if (language==="Ru"){    
-    return pictureRu.filter(cat=>cat.categoryFind===this.props.match.params.galleryId);
-  }
-  else
-  {return pictureEn.filter(cat=>cat.categoryFind===this.props.match.params.galleryId);}
- }
   
   render() {
     const { images, isModal, currentImage, size, name } = this.state;
-    
+    // const { location, history } = this.props;
+    // console.log(history.push(location?));
+    // console.log(history.push(location?.state?.from));
     const list=this.funcLanguage();
-    // console.log(list[0].categoryTitle);
+    // console.log(list);
     return (<> <br /> <br /> <br /> <br /> <br />
     {isModal && <Modal image={currentImage} size={size} name={name} onToggle={this.toggleModal} />}
+    <Link to={routes.gallery}>
+        <span>{list.go_back}</span>
+    </Link>
     <h1>{list[0].categoryTitle}</h1>
     <ImageGallery images={images} onClick={this.handleImageClick} />
     
@@ -56,6 +77,6 @@ class GalleryImage extends Component {
 }
 // export default GalleryImage;
 //получение языка в пропах
-const mapStateToProps=state=>{return {language: state.language}}
+const mapStateToProps=state=>{return {language: state.language.language}}
 
 export default connect(mapStateToProps)(GalleryImage)

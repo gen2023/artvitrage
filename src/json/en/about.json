@@ -1,5 +1,9 @@
  {
     "heading": "About",
     "text1":"My name is Alexandra Slaboshpitskaya, I live and work in Odessa, Ukraine. Psychologist, artist, member of the youth section of the Artists' Union of Ukraine (entry date 2015), repeated participant of All-Ukrainian (2015-2017) and regional (2015-2018) art exhibitions, constantly conducting personal exhibitions (2014-2018), student of the famous stained-glass window artist Vyacheslav Rode.",
-    "text2":"You can learn more about me seeing photos with me from exhibitions and fairs, and photos of my works which participated directly in exhibitions."
+    "text2":"You can learn more about me seeing ",
+    "linkMyPhoto": "photos with me ",
+    "text3": "from exhibitions and fairs, and",
+    "linkPhotoWork" : "photos of my works ",
+    "text4": "which participated directly in exhibitions."
   }

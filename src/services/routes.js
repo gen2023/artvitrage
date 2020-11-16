@@ -7,8 +7,8 @@ export default {
     video: '/video',
     videoblog: '/videoblog',
     contact: '/contact',
-    // moviesDetails: '/movies/:movieId',
-    // cast: '/movies/:movieId/cast',
-    // reviews: '/movies/:movieId/reviews',
+    myPhoto: '/my_photo',
+    workPhoto: '/work_photo',
+
   };
   
