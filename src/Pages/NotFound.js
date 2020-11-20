@@ -1,6 +1,8 @@
 import React,{Component} from 'react';
 import {connect} from 'react-redux';
 
+import '../css/pages/notFound.css';
+
 import textPageRu from "../json/ru/notFound.json";
 import textPageEn from "../json/en/notFound.json";
 

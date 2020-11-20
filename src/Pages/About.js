@@ -2,6 +2,9 @@ import React,{Component} from "react";
 import {connect} from 'react-redux';
 import { Link } from 'react-router-dom';
 
+import '../css/pages/about.css';
+import '../css/pages/mobileAbout.css';
+
 import textPageRu from "../json/ru/about.json";
 import textPageEn from "../json/en/about.json";
 

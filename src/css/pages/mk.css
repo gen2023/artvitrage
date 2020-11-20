@@ -1,0 +1,60 @@
+.mkBackground {
+  background: url(../../image/pages/overlay.png),
+    url(../../image/pages/vitraj/one.jpg);
+  background-size: 256px 256px, cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, center center;
+  height: 100%;
+  width: 100%;
+}
+
+.pageMk {
+  display: table;
+  position: absolute;
+
+  padding-top: 6em !important;
+}
+
+.contentMk {
+  background: rgba(255, 255, 255, 0.85);
+  margin: auto;
+  padding: 1.5em 1.25em 6.5em 1.25em;
+  position: relative;
+  width: 35%;
+  text-align: justify;
+}
+.textMk {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+.mkDescription {
+  display: none;
+  margin-left: 250px;
+  padding: 10px;
+  list-style: none;
+  background: rgba(255, 255, 255, 0.85);
+  -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.textMk:hover .mkDescription {
+  display: block;
+  position: fixed;
+  top: 80px;
+  z-index: 9999;
+  width: 600px;
+  text-decoration: none;
+  height: max-content;
+  font-size: 14px;
+  line-height: 12px;
+}
+
+.MkHeading {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.descriptionUl {
+  list-style: decimal;
+}

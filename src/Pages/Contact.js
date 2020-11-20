@@ -1,6 +1,9 @@
 import React,{Component} from 'react';
 import {connect} from 'react-redux';
 
+import '../css/pages/contact.css';
+import '../css/pages/mobileContact.css';
+
 import textPageRu from '../json/ru/contact.json';
 import textPageEn from '../json/en/contact.json';
 

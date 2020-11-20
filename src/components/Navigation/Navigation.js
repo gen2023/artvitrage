@@ -21,6 +21,7 @@ import NotFoundPage from '../../Pages/NotFound';
 import GalleryImage from '../../Pages/GalleryImage';
 import MyPhoto from '../../Pages/MyPhoto';
 import WorkPhoto from '../../Pages/WorkPhoto';
+import Mk from '../../Pages/Mk';
 
 import textPageRu from '../../json/ru/navigation.json';
 import textPageEn from '../../json/en/navigation.json';
@@ -75,25 +76,22 @@ class Navigation extends Component {
             path={routes.home}
             exact
             render={props => <HomePage {...props} />}
-            // render={props => <HomePage {...props} data={nameLang} />}
           />
           <Route
             path={routes.about}
             render={props => <AboutPage {...props} />}
-            // render={props => <AboutPage {...props} data={nameLang} />}
           />
           <Route path={routes.myPhoto} component={MyPhoto} />
           <Route path={routes.workPhoto} component={WorkPhoto} />
           <Route
             path={routes.vitraj}
             render={props => <VitrajPage {...props} />}
-            // render={props => <VitrajPage {...props} data={nameLang} />}
           />
+          <Route path={routes.mk} component={Mk} />
           <Route
             path={routes.gallery}
             exact
             render={props => <GalleryPage {...props} />}
-            // render={props => <GalleryPage {...props} data={nameLang} />}
           />
           <Route path={routes.galleryCategoria} component={GalleryImage} />
           <Route path={routes.video} component={VideoPage} />
@@ -101,11 +99,9 @@ class Navigation extends Component {
           <Route
             path={routes.contact}
             render={props => <ContactPage {...props} />}
-            // render={props => <ContactPage {...props} data={nameLang} />}
           />
           <Route
           render={props => <NotFoundPage {...props} />}
-            // render={props => <NotFoundPage {...props} data={nameLang} />}
           />
         </Switch>
         

@@ -1,5 +1,9 @@
 import React,{Component} from 'react';
 import {connect} from 'react-redux';
+import { Link } from 'react-router-dom';
+
+import '../css/pages/vitraj.css';
+import '../css/pages/mobilevitraj.css';
 
 import textPageRu from "../json/ru/vitraj.json";
 import textPageEn from "../json/en/vitraj.json";
@@ -25,7 +29,13 @@ class Vitraj extends Component {
         <div className="textVitraj">{list.text2}</div>
         <div className="textVitraj">{list.text3}</div>
         <div className="textVitraj">{list.text4}</div>
-        <div className="textVitraj">{list.text5}</div>
+        <div className="textVitraj">
+          {list.text5}
+          <Link to="mk">
+            {list.linkMk}
+          </Link>
+          {list.text6}
+        </div>
       </div>
     </div>
   );

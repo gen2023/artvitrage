@@ -2,13 +2,15 @@ import React, { Component } from 'react';
 import {connect} from 'react-redux';
 import { Link } from 'react-router-dom';
 
+import Modal from '../components/Modal';
+import ImageGallery from '../components/ImageGallery';
+
+import '../css/pages/galleryImage.css';
+
 import textPageRu from '../json/ru/galleryImage.json';
 import textPageEn from '../json/en/galleryImage.json';
 import textGeneralRu from '../json/ru/general.json';
 import textGeneralEn from '../json/en/general.json';
-
-import Modal from '../components/Modal';
-import ImageGallery from '../components/ImageGallery';
 
 import routes from '../services/routes';
 

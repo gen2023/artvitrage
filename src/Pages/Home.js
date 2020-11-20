@@ -1,6 +1,9 @@
 import React,{Component} from 'react';
 import {connect} from 'react-redux';
 
+import '../css/pages/home.css';
+import '../css/pages/mobileHome.css';
+
 import textPageRu from '../json/ru/home.json';
 import textPageEn from '../json/en/home.json';
 

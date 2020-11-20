@@ -9,6 +9,7 @@ export default {
     contact: '/contact',
     myPhoto: '/my_photo',
     workPhoto: '/work_photo',
+    mk: '/mk',
 
   };
   
