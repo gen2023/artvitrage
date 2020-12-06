@@ -1,6 +1,7 @@
 @media screen and (max-width: 768px) {
   .contentContact {
     width: 45%;
+    margin-top: 70px;
   }
 }
 @media screen and (max-width: 425px) {

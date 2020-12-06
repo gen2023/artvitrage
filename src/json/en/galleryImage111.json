@@ -1,0 +1,67 @@
+[
+
+
+    {
+        "id":"43",
+        "categoryFind":"dishesAndInterior",
+        "categoryTitle":"Посуда и предметы интерьера",
+        "name":"Red cat",
+        "large":"http://artvitrag.hol.es/galleryReact/gallery/plate/Red_cat.jpg",
+        "small":"http://artvitrag.hol.es/galleryReact/gallery/plate/Red_cat.jpg",
+        "size":"320 ml (11 Fluid ounces)"
+    },
+    {
+        "id":"47",
+        "categoryFind":"dishesAndInterior",
+        "categoryTitle":"Посуда и предметы интерьера",
+        "name":"Blue owl",
+        "large":"http://artvitrag.hol.es/galleryReact/gallery/plate/Blue_owl.jpg",
+        "small":"http://artvitrag.hol.es/galleryReact/gallery/plate/Blue_owl.jpg",
+        "size":"380 ml (13 Fluid ounces)"
+    },
+    {
+        "id":"48",
+        "categoryFind":"dishesAndInterior",
+        "categoryTitle":"Посуда и предметы интерьера",
+        "name":"Blue cat",
+        "large":"http://artvitrag.hol.es/galleryReact/gallery/plate/Blue_cat.jpg",
+        "small":"http://artvitrag.hol.es/galleryReact/gallery/plate/Blue_cat.jpg",
+        "size":"320 ml (11 Fluid ounces)"
+    },
+    {
+        "id":"49",
+        "categoryFind":"dishesAndInterior",
+        "categoryTitle":"Посуда и предметы интерьера",
+        "name":"Bitten image",
+        "large":"http://artvitrag.hol.es/galleryReact/gallery/plate/Bitten_image.jpg",
+        "small":"http://artvitrag.hol.es/galleryReact/gallery/plate/Bitten_image.jpg",
+        "size":"320 ml (11 Fluid ounces)"
+    },
+    {
+        "id":"50",
+        "categoryFind":"dishesAndInterior",
+        "categoryTitle":"Посуда и предметы интерьера",
+        "name":"Christmas tree pendant",
+        "large":"http://artvitrag.hol.es/galleryReact/gallery/plate/Christmas_tree_pendant.jpg",
+        "small":"http://artvitrag.hol.es/galleryReact/gallery/plate/Christmas_tree_pendant.jpg",
+        "size":"3х3 inches(7.5х7.5cm)"
+    },
+    {
+        "id":"51",
+        "categoryFind":"architecture",
+        "categoryTitle":"Архитектура",
+        "name":"Night town",
+        "large":"http://artvitrag.hol.es/galleryReact/gallery/architecture/Night_town.jpg",
+        "small":"http://artvitrag.hol.es/galleryReact/gallery/architecture/Night_town.jpg",
+        "size":"6х8 inches (15х20 cm)"
+    },
+    {
+        "id":"52",
+        "categoryFind":"architecture",
+        "categoryTitle":"Архитектура",
+        "name":"Crooked Houses",
+        "large":"http://artvitrag.hol.es/galleryReact/gallery/architecture/Crooked_Houses.jpg",
+        "small":"http://artvitrag.hol.es/galleryReact/gallery/architecture/Crooked_Houses.jpg",
+        "size":"6х8 inches (15х20 cm)"
+    }
+]

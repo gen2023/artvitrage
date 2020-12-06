@@ -1,15 +1,14 @@
 import React, { Fragment, Component } from 'react';
 import {connect} from 'react-redux';
 
-import textPageRu from '../../json/ru/GalleryNavigation.json';
-import textPageEn from '../../json/en/GalleryNavigation.json';
+import textPageRu from '../../json/ru/galleryImageObject.json';
+import textPageEn from '../../json/en/galleryImageObject.json';
 
 import GalleryNavigationItem from './GalleryNavigationItem';
 
 import './GalleryNavigation.css';
 
 class GalleryNavigation extends Component {
-
   funcLanguage() {
     const {language } = this.props;
 
@@ -20,9 +19,16 @@ class GalleryNavigation extends Component {
   else
   {return textPageEn;}
  }
+   randomImage(arr) {
+    const rand = Math.floor(Math.random() * arr.length);
+    return arr[rand];
+ }
   language() {}
   render() {
     const list=this.funcLanguage();
+    // const test=testRu;
+    // console.log(list.map(cat=>cat.image.map(img=>img.small)));
+    // console.log(test);
     return (
       <Fragment>
         
@@ -30,11 +36,11 @@ class GalleryNavigation extends Component {
           <nav className="listCategoryGallery">
             <ul className="galleryNavigation">
               {list.map(
-                ({ id,  category,picture }) => (
+                ({ id, category,image }) => (
                   <GalleryNavigationItem
                     key={id}
                     categoryName={category}
-                    picture={picture}
+                    picture={this.randomImage(image.map(img=>img.small))}
                     link={`gallery/${id}`}
                   />
                 ),

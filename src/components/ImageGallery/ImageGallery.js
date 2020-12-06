@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
 
-import textPageRu from '../../json/ru/galleryImage.json';
-import textPageEn from '../../json/en/galleryImage.json';
+// import textPageRu from '../../json/ru/galleryImage.json';
+// import textPageEn from '../../json/en/galleryImage.json';
+import textPageRu from '../../json/ru/galleryImageObject.json';
+import textPageEn from '../../json/en/galleryImageObject.json';
 import './imageGallery.css';
 import ImageGalleryItem from './ImageGalleryItem';
 
@@ -27,10 +29,10 @@ class ImageGallery extends Component {
   return (
     <>
     <h1>{list.category}</h1>
-    <ul className="ImageGallery">
-      {images.map(({ id, large,small,name,size }) => (
+    <ul className="ImagesGallery">
+      {images.map(({ large,small,name,size }) => (
         <ImageGalleryItem
-          key={id}
+          key={name}
           name={name}
           large={large}
           small={small}

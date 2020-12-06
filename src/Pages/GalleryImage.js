@@ -7,8 +7,8 @@ import ImageGallery from '../components/ImageGallery';
 
 import '../css/pages/galleryImage.css';
 
-import textPageRu from '../json/ru/galleryImage.json';
-import textPageEn from '../json/en/galleryImage.json';
+import textPageRu from '../json/ru/galleryImageObject.json';
+import textPageEn from '../json/en/galleryImageObject.json';
 import textGeneralRu from '../json/ru/general.json';
 import textGeneralEn from '../json/en/general.json';
 
@@ -19,22 +19,22 @@ class GalleryImage extends Component {
     const {language } = this.props;
 
   if (language==="Ru"){    
-     
+    //  console.log(textPageRu.filter(cat=>cat.id===this.props.match.params.galleryId).map(img=>img.image));
     return Object.assign(
-      textPageRu.filter(cat=>cat.categoryFind===this.props.match.params.galleryId),
+      textPageRu.filter(cat=>cat.id===this.props.match.params.galleryId),
       textGeneralRu
       );
   }
   else
   {
     return Object.assign(
-      textPageEn.filter(cat=>cat.categoryFind===this.props.match.params.galleryId),
+      textPageEn.filter(cat=>cat.id===this.props.match.params.galleryId),
       textGeneralEn
       );
   };
  }
   state = {
-    images: this.funcLanguage(),
+    // images: this.funcLanguage().map(img=>img.image),
     name:null,
     size:null,
     isModal: false,
@@ -59,9 +59,9 @@ class GalleryImage extends Component {
 
   
   render() {
-    const { images, isModal, currentImage, size, name } = this.state;
-    // const { location, history } = this.props;
-    // console.log(history.push(location?));
+    const { isModal, currentImage, size, name } = this.state;
+    const  images = this.funcLanguage().map(img=>img.image);
+    // console.log(images);
     // console.log(history.push(location?.state?.from));
     const list=this.funcLanguage();
     // console.log(list);
@@ -70,8 +70,8 @@ class GalleryImage extends Component {
     <Link to={routes.gallery}>
         <span>{list.go_back}</span>
     </Link>
-    <h1>{list[0].categoryTitle}</h1>
-    <ImageGallery images={images} onClick={this.handleImageClick} />
+    <h1>{list[0].category}</h1>
+    <ImageGallery images={images[0]} onClick={this.handleImageClick} />
     
 </>
     );

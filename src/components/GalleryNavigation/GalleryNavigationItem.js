@@ -1,9 +1,9 @@
 import React from 'react';
-import propTypes from 'prop-types';
+// import propTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 function GalleryNavigationItem({ categoryName, picture,link }) {
-  console.log(link)
+  console.log(picture);
   return (
   // <Link to={link}>
     <li className="galleryNavigationItem">
@@ -24,8 +24,8 @@ function GalleryNavigationItem({ categoryName, picture,link }) {
   );
 }
 
-GalleryNavigationItem.propTypes = {
-  name: propTypes.string.isRequired,
-};
+// GalleryNavigationItem.propTypes = {
+//   name: propTypes.string.isRequired,
+// };
 
 export default GalleryNavigationItem;

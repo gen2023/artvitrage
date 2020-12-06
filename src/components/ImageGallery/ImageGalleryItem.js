@@ -1,22 +1,16 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
 
 const ImageGalleryItem = ({ large,small, onClick,name,size }) => {
   return (
-    <li className="ImageGalleryItem">
+    <li className="ImagesGalleryItem">
       <img
         src={small}
         alt={name}
-        className="ImageGalleryItem-image"
+        className="ImagesGalleryItem-image"
         onClick={() => onClick(large,size,name)}
       />
     </li>
   );
 };
-
-// ImageGalleryItem.propTypes = {
-//   large: PropTypes.string.isRequired,
-//   onClick: PropTypes.func.isRequired,
-// };
 
 export default ImageGalleryItem;

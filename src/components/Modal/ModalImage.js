@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import { createPortal } from 'react-dom';
-import PropTypes from 'prop-types';
 import './Modal.css';
 
 const modalRoot = document.querySelector('#modal-root');
 
-class Modal extends Component {
+class ModalImage extends Component {
   
   componentDidMount() {
     window.addEventListener('keydown', this.handleKeydown);
+    const closeModal = document.querySelector('button[data-action="closeModal"]');
+    closeModal.addEventListener('click', this.handleBackdrop);
   }
 
   componentWillUnmount() {
@@ -35,8 +36,8 @@ class Modal extends Component {
         <div className="modalContent">
           <div className="Modal">
             <img className="Modal" src={image} alt="" />
-          </div>
-         
+            <button type="button" className="closeButton" data-action="closeModal"></button>
+          </div>         
         </div>
       </div>,
       modalRoot,
@@ -44,9 +45,4 @@ class Modal extends Component {
   }
 }
 
-Modal.propTypes = {
-  image: PropTypes.string.isRequired,
-  onToggle: PropTypes.func.isRequired,
-};
-
-export default Modal;
+export default ModalImage;

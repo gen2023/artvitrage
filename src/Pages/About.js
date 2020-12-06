@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 import '../css/pages/about.css';
 import '../css/pages/mobileAbout.css';
 
+import routes from '../services/routes';
+
 import textPageRu from "../json/ru/about.json";
 import textPageEn from "../json/en/about.json";
 
@@ -30,11 +32,11 @@ class About extends Component {
           <div>
             {list.text2}
             {list.text2}
-            <Link to="my_photo">
+            <Link to={routes.myPhoto}>
               {list.linkMyPhoto}
             </Link>
             {list.text3}
-            <Link to="work_photo">
+            <Link to={routes.workPhoto}>
               {list.linkPhotoWork}
             </Link>
             {list.text4}

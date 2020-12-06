@@ -1,3 +1,6 @@
 {
-    "error": "Sorry, page not found"
+    "title": "404",
+    "text1": "Oops ... We can't find this page!",
+    "text2": "We are sorry, but the page you are trying to navigate to does not exist. Please use the menu or the button to go to the main page.",
+    "linkHome":"home"
 }
