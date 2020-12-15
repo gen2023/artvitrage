@@ -2,17 +2,10 @@
   background: url(../../image/pages/overlay.png),
     url(../../image/pages/contact/contact.png);
   background-size: 256px 256px, cover;
-  background-attachment: fixed, fixed;
+  background-attachment: fixed;
   background-position: top left, center center;
   height: 100%;
   width: 100%;
-}
-
-.pageContact {
-  display: table;
-  position: absolute;
-
-  padding-top: 6em !important;
 }
 
 .contentContact {

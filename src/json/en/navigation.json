@@ -36,13 +36,6 @@
   },
   {
     "id": "6",
-    "heading": "Videoblog",
-    "link": "/videoblog",
-    "title":"My videoblog",
-    "classNameStyle": "icon fa fa-file-video-o"    
-  },
-  {
-    "id": "7",
     "heading": "Contact",
     "link":"/contact",
     "title":"Contact",

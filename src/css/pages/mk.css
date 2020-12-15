@@ -41,9 +41,12 @@
 .textMk:hover .mkDescription {
   display: block;
   position: fixed;
-  top: 80px;
   z-index: 9999;
   width: 600px;
+}
+.mkDescription {
+  display: none;
+  top: 80px;
   text-decoration: none;
   height: max-content;
   font-size: 14px;
@@ -56,4 +59,12 @@
 }
 .descriptionUl {
   list-style: decimal;
+}
+
+.nameMk {
+  color: #666;
+  font-weight: 500;
+}
+.headingDescrMk {
+  font-weight: 500;
 }

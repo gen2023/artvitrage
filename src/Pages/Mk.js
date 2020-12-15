@@ -4,6 +4,7 @@ import {connect} from 'react-redux';
 import ModalMk from '../components/Modal/ModalMk'
 
 import '../css/pages/mk.css';
+import '../css/pages/mobileMk.css';
 
 import textPageRu from "../json/ru/mkDescription.json";
 import textPageEn from "../json/en/mkDescription.json";
@@ -33,8 +34,8 @@ class Mk extends Component {
     const list=this.funcLanguage();
 
   return (
-    <div className="mkBackground pageMk">
-        <div className="content contentMk">
+    <div className="contentGeneral mkBackground">
+        <div className="columnLeft contentMk">
           <h1 className="MkHeading">{list.heading}</h1>
           <ul>
             {list.map(({ 
@@ -53,7 +54,7 @@ class Mk extends Component {
               descCostMk4
             }) => (
               <div className="textMk">
-              {name}
+              <div className="textMkHover"><span className="nameMk">{name}</span></div>
                 <div className="mkDescription">        
                   <ModalMk 
                     key={id} 

@@ -7,7 +7,7 @@ header {
   background: #dee5e7;
   box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
 }
-.content {
+.columnLeft {
   -moz-transition: all 1s ease;
   -webkit-transition: all 1s ease;
   -ms-transition: all 1s ease;
@@ -17,4 +17,10 @@ header {
   -ms-transform: translateZ(0);
   transform: translateZ(0);
   display: inline-block;
+}
+
+.contentGeneral {
+  display: table;
+  position: absolute;
+  padding-top: 6em !important;
 }

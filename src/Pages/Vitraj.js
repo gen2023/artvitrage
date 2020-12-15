@@ -24,8 +24,8 @@ class Vitraj extends Component {
  render() {
   const list=this.funcLanguage();
   return (
-    <div className="vitrajBackground pageAbout ">
-      <div className="content contentVitraj">
+    <div className="contentGeneral vitrajBackground">
+      <div className="columnLeft contentVitraj">
         <h1 style={{ textAlign: "center" }}>{list.heading}</h1>
         <div className="textVitraj">{list.text1}</div>
         <div className="textVitraj">{list.text2}</div>

@@ -24,7 +24,7 @@ class NotFound extends Component {
    render() {
     const list=this.funcLanguage();
   return (
-    <div className="notFound">
+    <div className="contentGeneral notFound">
       <div className="NFTitle">{list.title}</div>
         <div className="NFtext1">{list.text1}</div>
         <div className="NFtext2">{list.text2}</div>

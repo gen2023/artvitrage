@@ -50,6 +50,12 @@
                 "large":"http://artvitrag.hol.es/galleryReact/gallery/animals/Pensive_owl.jpg",
                 "small":"http://artvitrag.hol.es/galleryReact/gallery/animals/Pensive_owl.jpg",
                 "size":"5x7 inches (13x18 cm)"
+            },
+            {
+                "name":"Horse",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/animals/horse.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/animals/horse.jpg",
+                "size":"12x16 inches (30x40 cm)"
             }
     ]
     },
@@ -68,6 +74,30 @@
                 "large":"http://artvitrag.hol.es/galleryReact/gallery/architecture/Crooked_Houses.jpg",
                 "small":"http://artvitrag.hol.es/galleryReact/gallery/architecture/Crooked_Houses.jpg",
                 "size":"6х8 inches (15х20 cm)"
+            },
+            {
+                "name":"Working Village",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/architecture/Working_Village.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/architecture/Working_Village.jpg",
+                "size":"12х12 inches (30х30 cm)"
+            },
+            {
+                "name":"City on the mountain",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/architecture/City_on_the_mountain.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/architecture/City_on_the_mountain.jpg",
+                "size":"16х12 inches (40х30 cm) "
+            },
+            {
+                "name":"Winter towns",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/architecture/Winter_town.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/architecture/Winter_town.jpg",
+                "size":"12х16 inches (30х40 cm)"
+            },
+            {
+                "name":"Christmas Eve",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/architecture/Christmas_Eve.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/architecture/Christmas_Eve.jpg",
+                "size":"12х12 inches (30х30 cm)"
             }
         ]
     },
@@ -92,6 +122,12 @@
                 "large":"http://artvitrag.hol.es/galleryReact/gallery/birds/Phoenix.jpg",
                 "small":"http://artvitrag.hol.es/galleryReact/gallery/birds/Phoenix.jpg",
                 "size":"25x12 inches (63x31 cm)"
+            },
+            {
+                "name":"Bird",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/birds/bird.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/birds/bird.jpg",
+                "size":"8x12 inches (20x30 cm)"
             }
         ]
     },
@@ -103,6 +139,18 @@
                 "name":"Blue elephant",
                 "large":"http://artvitrag.hol.es/galleryReact/gallery/childish/Blue_elephant.jpg",
                 "small":"http://artvitrag.hol.es/galleryReact/gallery/childish/Blue_elephant.jpg",
+                "size":"12x12 inches (30x30 cm)"
+            },
+            {
+                "name":"Funny frogs",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/childish/Funny_frogs.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/childish/Funny_frogs.jpg",
+                "size":"12x16 inches (30x40 cm)"
+            },
+            {
+                "name":"Multicolor flock",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/childish/Multicolor_flock.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/childish/Multicolor_flock.jpg",
                 "size":"12x12 inches (30x30 cm)"
             }
         ]
@@ -274,10 +322,16 @@
         "category":"Fishes",
         "image":[
             {
-                "name":"незаполненно",
-                "large":"http://artvitrag.hol.es/galleryReact/no_image.png",
-                "small":"http://artvitrag.hol.es/galleryReact/no_image.png",
-                "size":"00"
+                "name":"Red betta fish",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/fishes/Red_betta_fish.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/fishes/Red_betta_fish.jpg",
+                "size":"8x12 inches (20x30 cm)"
+            },
+            {
+                "name":"Goldfish",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/fishes/Goldfish.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/fishes/Goldfish.jpg",
+                "size":"8x12 inches (20x30 cm)"
             }
         ]
     },
@@ -316,16 +370,46 @@
                 "size":"6x8 inches (15x20 cm)"
             },
             {
+                "name":"Butterflies In The Garden",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/insects/Butterflies_In_The_Garden.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/insects/Butterflies_In_The_Garden.jpg",
+                "size":"28x15 inches (72x38 cm)"
+            },
+            {
                 "name":"Yellow butterfly",
                 "large":"http://artvitrag.hol.es/galleryReact/gallery/insects/Yellow_butterfly.jpg",
                 "small":"http://artvitrag.hol.es/galleryReact/gallery/insects/Yellow_butterfly.jpg",
                 "size":"6x8 inches (30x20 cm)"
             },
             {
+                "name":"Yellow butterfly",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/insects/Yellow_butterfly1.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/insects/Yellow_butterfly1.jpg",
+                "size":"16x12 inches (40x30 cm)"
+            },
+            {
+                "name":"Blue butterfly",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/insects/Blue_butterfly.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/insects/Blue_butterfly.jpg",
+                "size":"12x8 inches (30x20 cm)"
+            },
+            {
                 "name":"Multicolor butterfly",
                 "large":"http://artvitrag.hol.es/galleryReact/gallery/insects/Multicolor_butterfly.jpg",
                 "small":"http://artvitrag.hol.es/galleryReact/gallery/insects/Multicolor_butterfly.jpg",
-                "size":"12x8 inches (30x20 cms)"
+                "size":"12x8 inches (30x20 cm)"
+            },
+            {
+                "name":"Multicolor butterfly",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/insects/Multicolor_butterfly1.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/insects/Multicolor_butterfly1.jpg",
+                "size":"16x12 inches (40x30 cm)"
+            },
+            {
+                "name":"Bright butterfly",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/insects/Bright_butterfly.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/insects/Bright_butterfly.jpg",
+                "size":"16x12 inches (40x30 cm)"
             },
             {
                 "name":"Dragonfly on the lawn",
@@ -358,7 +442,7 @@
                 "size":"8x12 inches (20x30 cm)"
             },
             {
-                "name":"Однажды на рассвете",
+                "name":"Once at dawn",
                 "large":"http://artvitrag.hol.es/galleryReact/gallery/landscape/Once_at_dawn.jpg",
                 "small":"http://artvitrag.hol.es/galleryReact/gallery/landscape/Once_at_dawn.jpg",
                 "size":"16x12 inches (40x30 cm)"
@@ -370,10 +454,40 @@
                 "size":"18x12 inches (46x30 cm)"
             },
             {
+                "name":"Red poppies",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/landscape/Red_poppies.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/landscape/Red_poppies.jpg",
+                "size":"12x8 inches (30x20 cm)"
+            },
+            {
+                "name":"Yellow sunflower",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/landscape/Yellow_sunflower.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/landscape/Yellow_sunflower.jpg",
+                "size":"12x8 inches (30x20 cm)"
+            },
+            {
                 "name":"The tree of life",
                 "large":"http://artvitrag.hol.es/galleryReact/gallery/landscape/The_tree_of_life.jpg",
                 "small":"http://artvitrag.hol.es/galleryReact/gallery/landscape/The_tree_of_life.jpg",
                 "size":"16x12 inches (40x30 cm)"
+            },
+            {
+                "name":"At the edge of forest",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/landscape/At_the_edge_of_forest.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/landscape/At_the_edge_of_forest.jpg",
+                "size":"17.7x13.8 inches (45x35 cm)"
+            },
+            {
+                "name":"Lavender Field",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/landscape/Lavender_Field.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/landscape/Lavender_Field.jpg",
+                "size":"13x12 inches (34x51 cm)"
+            },
+            {
+                "name":"Flower Fantasy",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/landscape/Flower_Fantasy.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/landscape/Flower_Fantasy.jpg",
+                "size":"36x13 inches (91x33 cm)"
             }
         ]
     },
@@ -382,10 +496,58 @@
         "category":"Portrait, people",
         "image":[
             {
+                "name":"Custom portrait your favorite family",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/portrait/Custom_portrait_your_favorite_family3.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/portrait/Custom_portrait_your_favorite_family3.jpg",
+                "size":"16x12 inches (40х30 cm)"
+            },
+            {
+                "name":"Custom portrait your favorite family",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/portrait/Custom_portrait_your_favorite_family.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/portrait/Custom_portrait_your_favorite_family.jpg",
+                "size":"16x12 inches (40х30 cm)"
+            },
+            {
+                "name":"Custom portrait your favorite family",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/portrait/Custom_portrait_your_favorite_family2.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/portrait/Custom_portrait_your_favorite_family2.jpg",
+                "size":"16x12 inches (40х30 cm)"
+            },
+            {
                 "name":"Together",
                 "large":"http://artvitrag.hol.es/galleryReact/gallery/portrait/Together.jpg",
                 "small":"http://artvitrag.hol.es/galleryReact/gallery/portrait/Together.jpg",
                 "size":"16x12 inches (40х30 cm)"
+            },
+            {
+                "name":"Charlies look",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/portrait/Charlies_look.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/portrait/Charlies_look.jpg",
+                "size":"12x8 inches (30х20 cm)"
+            },
+            {
+                "name":"Charlie with a cane",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/portrait/Charlie_with_a_cane.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/portrait/Charlie_with_a_cane.jpg",
+                "size":"12x8 inches (30х20 cm)"
+            },
+            {
+                "name":"Charlie Is Calm",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/portrait/Charlie_Is_Calm.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/portrait/Charlie_Is_Calm.jpg",
+                "size":"12x8 inches (30х20 cm)"
+            },
+            {
+                "name":"Copy Of Tamara De Lempickas Painting",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/portrait/Copy_Of_Tamara_De_Lempickas_Painting.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/portrait/Copy_Of_Tamara_De_Lempickas_Painting.jpg",
+                "size":"14.5x21 inches (37х53 cm)"
+            },
+            {
+                "name":"Fairy",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/portrait/fairy.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/portrait/fairy.jpg",
+                "size":"8x12 inches (20х30 cm)"
             }
         ]
     },
@@ -410,6 +572,18 @@
                 "large":"http://artvitrag.hol.es/galleryReact/gallery/stillLife/Olive.jpg",
                 "small":"http://artvitrag.hol.es/galleryReact/gallery/stillLife/Olive.jpg",
                 "size":"12x12 inches (30х30 cm)"
+            },
+            {
+                "name":"Easter",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/stillLife/Easter.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/stillLife/Easter.jpg",
+                "size":"12x16 inches (30х40 cm)"
+            },
+            {
+                "name":"Hanukkah",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/stillLife/Hanukkah.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/stillLife/Hanukkah.jpg",
+                "size":"16x24 inches (40х60 cm)"
             }
         ]
     },
@@ -418,10 +592,76 @@
         "category":"Magnets",
         "image":[
             {
-                "name":"незаполненно",
-                "large":"http://artvitrag.hol.es/galleryReact/no_image.png",
-                "small":"http://artvitrag.hol.es/galleryReact/no_image.png",
-                "size":"00"
+                "name":"Американский флаг",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/magnets/American_flag.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/magnets/American_flag.jpg",
+                "size":"3.9x2.9 inches (10x7.5 cm)"
+            },
+            {
+                "name":"Пчелка",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/magnets/Bee.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/magnets/Bee.jpg",
+                "size":"3.9x2.9 inches (10x7.5 cm)"
+            },
+            {
+                "name":"Bee happy",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/magnets/Bee_happy.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/magnets/Bee_happy.jpg",
+                "size":"3.9x2.9 inches (10x7.5 cm)"
+            },
+            {
+                "name":"Beelong",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/magnets/Bee_long.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/magnets/Bee_long.jpg",
+                "size":"3.9x2.9 inches (10x7.5 cm)"
+            },
+            {
+                "name":"fishes",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/magnets/fishes.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/magnets/fishes.jpg",
+                "size":"3.9x2.9 inches (10x7.5 cm)"
+            },
+            {
+                "name":"Black feather",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/magnets/Black_feather.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/magnets/Black_feather.jpg",
+                "size":"3.9x2.3 inches (10x6 cm)"
+            },
+            {
+                "name":"Gold feather",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/magnets/gold_feather.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/magnets/gold_feather.jpg",
+                "size":"3.9x2.3 inches (10x6 cm)"
+            },
+            {
+                "name":"Silver feather",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/magnets/silver_feather.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/magnets/silver_feather.jpg",
+                "size":"3.9x2.3 inches (10x6 cm)"
+            },
+            {
+                "name":"White feather",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/magnets/white_feather.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/magnets/white_feather.jpg",
+                "size":"3.9x2.9 inches (10x7.5 cm)"
+            },
+            {
+                "name":"Giraffe",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/magnets/giraffe.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/magnets/giraffe.jpg",
+                "size":"3.9x2.9 inches (10x7.5 cm)"
+            },
+            {
+                "name":"Lady liberty",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/magnets/lady_liberty.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/magnets/lady_liberty.jpg",
+                "size":"3.9x2.3 inches (10x6 cm)"
+            },
+            {
+                "name":"ship",
+                "large":"http://artvitrag.hol.es/galleryReact/gallery/magnets/ship.jpg",
+                "small":"http://artvitrag.hol.es/galleryReact/gallery/magnets/ship.jpg",
+                "size":"3.9x2.9 inches (10x7.5 cm)"
             }
         ]
     },

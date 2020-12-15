@@ -21,8 +21,8 @@ import textPageEn from '../json/en/contact.json';
    render() {
     const list=this.funcLanguage();
   return (
-    <div className="contactBackground pageContact">
-      <div className="content contentContact">
+    <div className="contentGeneral contactBackground">
+      <div className="columnLeft contentContact">
         <h1 style={{ textAlign: 'center' }}>{list.heading}</h1>
         <div className="textAbout">{list.text1}</div>
         <div className="textAbout">

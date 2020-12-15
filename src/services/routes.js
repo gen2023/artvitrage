@@ -5,7 +5,7 @@ export default {
     gallery: '/gallery',
     galleryCategoria: '/gallery/:galleryId',
     video: '/video',
-    videoblog: '/videoblog',
+    videoCategoria: '/video/:videoId',
     contact: '/contact',
     myPhoto: '/my_photo',
     workPhoto: '/work_photo',

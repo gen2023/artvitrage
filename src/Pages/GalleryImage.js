@@ -34,7 +34,6 @@ class GalleryImage extends Component {
   };
  }
   state = {
-    // images: this.funcLanguage().map(img=>img.image),
     name:null,
     size:null,
     isModal: false,
@@ -65,15 +64,15 @@ class GalleryImage extends Component {
     // console.log(history.push(location?.state?.from));
     const list=this.funcLanguage();
     // console.log(list);
-    return (<> <br /> <br /> <br /> <br /> <br />
-    {isModal && <Modal image={currentImage} size={size} name={name} onToggle={this.toggleModal} />}
-    <Link to={routes.gallery}>
-        <span>{list.go_back}</span>
-    </Link>
-    <h1>{list[0].category}</h1>
-    <ImageGallery images={images[0]} onClick={this.handleImageClick} />
-    
-</>
+    return (
+    <div className="contentGeneral"> 
+      {isModal && <Modal image={currentImage} size={size} name={name} onToggle={this.toggleModal} />}
+      <Link to={routes.gallery}>
+          <span>{list.go_back}</span>
+      </Link>
+      <h1>{list[0].category}</h1>
+      <ImageGallery images={images[0]} onClick={this.handleImageClick} />
+    </div>
     );
   }
 }

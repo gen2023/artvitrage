@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4c0346619959ba43de80345c3e3fa509",
+    "revision": "9b30ef8f260cfba338f4a0c2c45fa150",
     "url": "/artvitrag/index.html"
   },
   {
-    "revision": "c91aa7eb7bfb1f957475",
+    "revision": "18caa2fa1a1615e5d6ee",
     "url": "/artvitrag/static/css/2.3d72dcb8.chunk.css"
   },
   {
-    "revision": "8165cd68a32c7c37fe38",
-    "url": "/artvitrag/static/css/main.8eeb3ec0.chunk.css"
+    "revision": "f33e6f574cf157296192",
+    "url": "/artvitrag/static/css/main.0d04a8ee.chunk.css"
   },
   {
-    "revision": "c91aa7eb7bfb1f957475",
-    "url": "/artvitrag/static/js/2.148e1d40.chunk.js"
+    "revision": "18caa2fa1a1615e5d6ee",
+    "url": "/artvitrag/static/js/2.17ee273c.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/artvitrag/static/js/2.148e1d40.chunk.js.LICENSE.txt"
+    "url": "/artvitrag/static/js/2.17ee273c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8165cd68a32c7c37fe38",
-    "url": "/artvitrag/static/js/main.cb18f62e.chunk.js"
+    "revision": "f33e6f574cf157296192",
+    "url": "/artvitrag/static/js/main.36419343.chunk.js"
   },
   {
     "revision": "e3a400d3ee0381b742e4",

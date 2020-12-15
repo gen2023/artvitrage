@@ -2,6 +2,10 @@
   .contentContact {
     width: 45%;
     margin-top: 70px;
+    background: rgba(255, 255, 255, 0.6);
+  }
+  .contactBackground {
+    background-position: right;
   }
 }
 @media screen and (max-width: 425px) {

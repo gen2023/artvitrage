@@ -1,14 +1,38 @@
-@media screen and (max-width: 736px) {
-  .MkHeading {
-    font-size: 10px;
-    text-transform: uppercase;
+@media screen and (max-width: 1024px) {
+  .contentMk {
+    width: 40%;
   }
-  .MkHeading ul {
-    padding: 0;
+}
+@media screen and (max-width: 768px) {
+  .contentMk {
+    width: 50%;
+  }
+  .mkDescription {
+    display: block;
+    margin-left: 0;
+  }
+  .textMk:hover .mkDescription {
+    display: none;
+  }
+}
+@media screen and (max-width: 425px) {
+  .contentMk {
+    width: 90%;
+  }
+  .MkHeading {
+    font-size: 15px;
+  }
+  .textMk {
     font-size: 12px;
   }
   .mkDescription {
-    margin-left: 150px;
-    width: 265px;
+    display: block;
+    margin-left: 0;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .contentMk {
+    width: 100%;
   }
 }

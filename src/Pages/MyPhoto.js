@@ -25,10 +25,11 @@ class MyPhoto extends Component {
 
   render() {
   
-    return <>
-
-    <Photo text={this.funcLanguage()} images={imagePage} />;
+    return (
+    <>
+      <Photo text={this.funcLanguage()} images={imagePage} />;
     </>
+    )
   }
 }
 

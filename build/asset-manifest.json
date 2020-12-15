@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/artvitrag/static/css/main.8eeb3ec0.chunk.css",
-    "main.js": "/artvitrag/static/js/main.cb18f62e.chunk.js",
-    "main.js.map": "/artvitrag/static/js/main.cb18f62e.chunk.js.map",
+    "main.css": "/artvitrag/static/css/main.0d04a8ee.chunk.css",
+    "main.js": "/artvitrag/static/js/main.36419343.chunk.js",
+    "main.js.map": "/artvitrag/static/js/main.36419343.chunk.js.map",
     "runtime-main.js": "/artvitrag/static/js/runtime-main.3656735e.js",
     "runtime-main.js.map": "/artvitrag/static/js/runtime-main.3656735e.js.map",
     "static/css/2.3d72dcb8.chunk.css": "/artvitrag/static/css/2.3d72dcb8.chunk.css",
-    "static/js/2.148e1d40.chunk.js": "/artvitrag/static/js/2.148e1d40.chunk.js",
-    "static/js/2.148e1d40.chunk.js.map": "/artvitrag/static/js/2.148e1d40.chunk.js.map",
+    "static/js/2.17ee273c.chunk.js": "/artvitrag/static/js/2.17ee273c.chunk.js",
+    "static/js/2.17ee273c.chunk.js.map": "/artvitrag/static/js/2.17ee273c.chunk.js.map",
     "index.html": "/artvitrag/index.html",
-    "precache-manifest.54ff6a8f4febb3c82a00ac2fee723ea6.js": "/artvitrag/precache-manifest.54ff6a8f4febb3c82a00ac2fee723ea6.js",
+    "precache-manifest.a293aa470f74f71b201493c62bca22c0.js": "/artvitrag/precache-manifest.a293aa470f74f71b201493c62bca22c0.js",
     "service-worker.js": "/artvitrag/service-worker.js",
     "static/css/2.3d72dcb8.chunk.css.map": "/artvitrag/static/css/2.3d72dcb8.chunk.css.map",
-    "static/css/main.8eeb3ec0.chunk.css.map": "/artvitrag/static/css/main.8eeb3ec0.chunk.css.map",
-    "static/js/2.148e1d40.chunk.js.LICENSE.txt": "/artvitrag/static/js/2.148e1d40.chunk.js.LICENSE.txt",
+    "static/css/main.0d04a8ee.chunk.css.map": "/artvitrag/static/css/main.0d04a8ee.chunk.css.map",
+    "static/js/2.17ee273c.chunk.js.LICENSE.txt": "/artvitrag/static/js/2.17ee273c.chunk.js.LICENSE.txt",
     "static/media/contact.css": "/artvitrag/static/media/contact.66009cfa.png",
     "static/media/Modal.css": "/artvitrag/static/media/icon-close.c31ab9cf.svg",
     "static/media/home.css": "/artvitrag/static/media/intro.e2f38849.jpg",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.3656735e.js",
     "static/css/2.3d72dcb8.chunk.css",
-    "static/js/2.148e1d40.chunk.js",
-    "static/css/main.8eeb3ec0.chunk.css",
-    "static/js/main.cb18f62e.chunk.js"
+    "static/js/2.17ee273c.chunk.js",
+    "static/css/main.0d04a8ee.chunk.css",
+    "static/js/main.36419343.chunk.js"
   ]
 }

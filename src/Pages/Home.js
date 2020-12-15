@@ -22,7 +22,7 @@ class Home extends Component {
   const list=this.funcLanguage();
   return (
     <div className="homeBackground">
-      <div className="content contentHome">
+      <div className="columnLeft contentHome">
         <div className="contentHomeTitle">{list.title}</div>
         <div className="contentHomeAuthor">{list.author}</div>
       </div>

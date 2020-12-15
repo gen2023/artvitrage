@@ -15,10 +15,11 @@ import AboutPage from '../../Pages/About';
 import VitrajPage from '../../Pages/Vitraj';
 import GalleryPage from '../../Pages/Gallery';
 import VideoPage from '../../Pages/Video';
-import VideoblogPage from '../../Pages/Videoblog';
+// import VideoblogPage from '../../Pages/Videoblog';
 import ContactPage from '../../Pages/Contact';
 import NotFoundPage from '../../Pages/NotFound';
 import GalleryImage from '../../Pages/GalleryImage';
+// import ModalVideoPlay from '../Modal/ModalVideoPlay';
 import MyPhoto from '../../Pages/MyPhoto';
 import WorkPhoto from '../../Pages/WorkPhoto';
 import Mk from '../../Pages/Mk';
@@ -95,7 +96,8 @@ class Navigation extends Component {
           />
           <Route path={routes.galleryCategoria} component={GalleryImage} />
           <Route path={routes.video} component={VideoPage} />
-          <Route path={routes.videoblog} component={VideoblogPage} />
+          {/* <Route path={routes.videoCategoria} component={ModalVideoPlay} /> */}
+          {/* <Route path={routes.videoblog} component={VideoblogPage} /> */}
           <Route
             path={routes.contact}
             render={props => <ContactPage {...props} />}

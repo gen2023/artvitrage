@@ -54,3 +54,13 @@
 .closeButton:focus {
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+/*modal from video*/
+
+.contentModalVideo {
+  flex-direction: column;
+  justify-content: center;
+  background: white;
+  width: 600px;
+  padding: 10px;
+}

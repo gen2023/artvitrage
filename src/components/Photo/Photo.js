@@ -32,7 +32,7 @@ handleImageClick = (image) => {
   render() {
     const { images,isModal, currentImage} = this.state;
    const {text}=this.props;
-    console.log(text)
+    // console.log(text)
   return (
     <>{isModal && <Modal image={currentImage} onToggle={this.toggleModal} />}
     <br /> <br /> <br /> <br /> <br />

@@ -7,14 +7,6 @@
   height: 100%;
   width: 100%;
 }
-
-.pageAbout {
-  display: table;
-  position: absolute;
-
-  padding-top: 6em !important;
-}
-
 .contentAbout {
   background: rgba(255, 255, 255, 0.85);
   margin: auto;

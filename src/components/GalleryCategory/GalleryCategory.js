@@ -4,11 +4,11 @@ import {connect} from 'react-redux';
 import textPageRu from '../../json/ru/galleryImageObject.json';
 import textPageEn from '../../json/en/galleryImageObject.json';
 
-import GalleryNavigationItem from './GalleryNavigationItem';
+import GalleryCategoryItem from './GalleryCategoryItem';
 
-import './GalleryNavigation.css';
+import './GalleryCategory.css';
 
-class GalleryNavigation extends Component {
+class GalleryCategory extends Component {
   funcLanguage() {
     const {language } = this.props;
 
@@ -30,24 +30,21 @@ class GalleryNavigation extends Component {
     // console.log(list.map(cat=>cat.image.map(img=>img.small)));
     // console.log(test);
     return (
-      <Fragment>
-        
-          
-          <nav className="listCategoryGallery">
-            <ul className="galleryNavigation">
-              {list.map(
-                ({ id, category,image }) => (
-                  <GalleryNavigationItem
-                    key={id}
-                    categoryName={category}
-                    picture={this.randomImage(image.map(img=>img.small))}
-                    link={`gallery/${id}`}
-                  />
-                ),
-              )}
-            </ul>
-          </nav>
-
+      <Fragment>        
+        <nav className="listCategoryGallery">
+          <ul className="galleryCategory">
+            {list.map(
+              ({ id, category,image }) => (
+                <GalleryCategoryItem
+                  key={id}
+                  categoryName={category}
+                  picture={this.randomImage(image.map(img=>img.small))}
+                  link={`gallery/${id}`}
+                />
+              ),
+            )}
+          </ul>
+        </nav>
       </Fragment>
     );
   }
@@ -56,4 +53,4 @@ class GalleryNavigation extends Component {
 //получение языка в пропах
 const mapStateToProps=state=>{return {language: state.language.language}}
 
-export default connect(mapStateToProps)(GalleryNavigation)
+export default connect(mapStateToProps)(GalleryCategory)

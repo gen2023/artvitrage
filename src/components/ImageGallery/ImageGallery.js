@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
 
-// import textPageRu from '../../json/ru/galleryImage.json';
-// import textPageEn from '../../json/en/galleryImage.json';
 import textPageRu from '../../json/ru/galleryImageObject.json';
 import textPageEn from '../../json/en/galleryImageObject.json';
 import './imageGallery.css';

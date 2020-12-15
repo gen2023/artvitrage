@@ -5,16 +5,16 @@ function ModalMk({ name, descripnion, time, descTime, features, descFeatures1, d
   return (
   <>
     <li>        
-      <p>{name}</p>
+      <p><span className="headingDescrMk">{name}</span></p>
     </li>
     <li>        
       <p>{descripnion}</p>
     </li>
     <li>        
-      <p>{time} {descTime}</p>
+      <p><span className="headingDescrMk">{time}</span> {descTime}</p>
     </li>
     <li>        
-      <p>{features}</p>
+      <p><span className="headingDescrMk">{features}</span></p>
     </li>
     <li> 
       <ul className="descriptionUl">    
@@ -27,7 +27,7 @@ function ModalMk({ name, descripnion, time, descTime, features, descFeatures1, d
       </ul>
     </li>
     <li>        
-      <p>{costMk}</p>
+      <p><span className="headingDescrMk">{costMk}</span></p>
     </li>
     <li>  
       <ul className="descriptionUl">     

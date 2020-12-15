@@ -11,7 +11,6 @@ import {
 import {configureStore, getDefaultMiddleware} from '@reduxjs/toolkit';
 import languageReduser from "./language/language-reduser";
 import storage from 'redux-persist/lib/storage';
-// const rootReduser=combineReducers({language:languageReduser,})
 
 const persistConfig={
     key:'language',
@@ -23,9 +22,7 @@ const middleware=[...getDefaultMiddleware({serializableCheck:{
 }
 }),
 ];
-// const rootReduser=combineReducers({language:languageReduser});
-// const persistedReducer=persistReducer(persistConfig,rootReduser);
-// const store=createStore(rootReduser)
+
 const store = configureStore({
     reducer:{language:persistReducer(persistConfig,languageReduser),},
     middleware,

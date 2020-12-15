@@ -25,8 +25,8 @@ class About extends Component {
     const list=this.funcLanguage();
 
   return (
-    <div className="aboutBackground pageAbout ">
-      <div className="content contentAbout">
+    <div className="contentGeneral aboutBackground">
+      <div className="columnLeft contentAbout">
         <h1 style={{ textAlign: "center" }}>{list.heading}</h1>
         <div className="textAbout">{list.text1}</div>
           <div>

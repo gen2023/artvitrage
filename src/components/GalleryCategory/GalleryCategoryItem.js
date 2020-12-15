@@ -1,12 +1,11 @@
 import React from 'react';
-// import propTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
-function GalleryNavigationItem({ categoryName, picture,link }) {
+function GalleryCategoryItem({ categoryName, picture,link }) {
   console.log(picture);
   return (
   // <Link to={link}>
-    <li className="galleryNavigationItem">
+    <li className="galleryCategoryItem">
       <Link to={link}>
       
       <span>{categoryName}</span>
@@ -14,7 +13,7 @@ function GalleryNavigationItem({ categoryName, picture,link }) {
       <img
         src={picture}
         alt=""
-        className="galleryNavigationItem-image"
+        className="galleryCategoryItem-image"
         // onClick={() => onClick(picture)}
       />
       
@@ -24,8 +23,4 @@ function GalleryNavigationItem({ categoryName, picture,link }) {
   );
 }
 
-// GalleryNavigationItem.propTypes = {
-//   name: propTypes.string.isRequired,
-// };
-
-export default GalleryNavigationItem;
+export default GalleryCategoryItem;

@@ -1,0 +1,9 @@
+@media screen and (max-width: 768px) {
+  .description {
+    margin-left: 0px;
+  }
+
+  .modalContent {
+    flex-direction: column;
+  }
+}
